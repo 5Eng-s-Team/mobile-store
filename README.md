@@ -5,7 +5,7 @@
 
 2. Obada Al-hawjreh
 
-3. Anwar Hemaimat
+3. Anwar Al-Hemaimat
 
 4. Niveen Smadi
 
