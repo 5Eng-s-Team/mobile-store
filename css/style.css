@@ -1,0 +1,93 @@
+
+body {
+    background-color: rgb(230, 204, 255) !important;
+    font-family: 'Akaya Telivigala'!important ;
+  }
+
+  nav{
+  background-color: rgb(181, 102, 255);
+  position: fixed;
+  top: 0;
+  text-align: left;
+  width: 100%;
+  height: 10%;
+}
+nav a {
+  display: inline-block;
+  font-family: 'Akaya Telivigala' !important ;
+  font-size: 25px;
+  padding: 15px;
+  padding-inline-end:50px;
+  padding-inline-start: 50px;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+nav a:hover {
+  color:rgb(181, 102, 255);
+  background-color:rgb(230, 204, 255);
+}
+
+.team{
+    margin: 100px 0 ;
+}
+
+
+.profile{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.profile .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.profile h6{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color :rgb(181, 102, 255);
+}
+
+.img-box ul{
+    margin: 0;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box a
+{
+    color: rgb(181, 102, 255);
+}
+
+.img-box:hover ul{
+    opacity: 1;
+}
+.img-box a:hover li{
+    color: #060b11;
+    border: 1px solid #060b11;
+}
+.img-box::after,.img-box ul, .img-box ul li {
+    transition : all 0.5s ease-in-out 0s;
+}
+img {
+    border-radius: 50%;
+    width:200px
+  }
+  img {
+    opacity: 1;
+  }
+  
+  img:hover {
+    opacity: .05;
+  }
