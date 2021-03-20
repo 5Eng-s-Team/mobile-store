@@ -5,7 +5,7 @@
 
 2. Obada Al-hawjreh
 
-3. Anwar Hemaimat
+3. Anwar Al-Hemaimat
 
 4. Niveen Smadi
 
@@ -13,4 +13,8 @@
 
 ## This project had built to sell mobiles online by creating an online store.
 
+
 OBADA BRANCH
+=======
+We are here ..
+
