@@ -1,0 +1,66 @@
+#addPhoneCompare{
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    background-color: gray;
+    float: left;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#btn{
+    width: 50px;
+    height: 35px;
+    margin-bottom: 10px;
+    
+   
+}
+#addPhoneCompare #divForphoneBox button{
+    height: 80px;
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    
+}
+
+#divForphoneBox button img {
+    float: left;
+    margin: auto;
+    width: 15%;
+}
+/*=============================================*/
+#comparing_section img{
+    width: 30%;
+    height: 500px;
+    /* margin-left:150px; */
+    border: 2px solid gray;
+    background-image: url("../img/background_mobile.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#comparing_section img:first-child{
+    margin:0 50px;
+}
+#comparing_section{
+    width: 75%;
+    float: right;
+}
+#comparing_section button {
+    background-color: aqua;
+    display: inline-block;
+    font-size: 100px;
+    margin-right: 50px;
+    transform: translateY(-250px);
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+
+#tableSection{
+    margin-top: 60px;
+    margin-right: 150px;
+    float: right;
+}
