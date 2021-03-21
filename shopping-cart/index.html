@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <form id="add-form">
-    <label>Name: <input id="item-name" type="text" placeholder="Item Name"> </label>
-    <label>price: <input id="item-price" type="number" step="0.01"> </label>
-    <button type="submit">Add Item</button>
-  </form>
-  <!-- Cart qty -->
-  <div id="cart-qty"></div>
-  <!-- Cart Items -->
-  <ul id="item-list">
+  <div class="contain">
+         <form id="add-form">
+           <label>Name: <input id="item-name" type="text" placeholder="Item Name"> </label>
+           <label>price: <input id="item-price" type="number" step="0.01"> </label>
+           <button type="submit">Add Item</button>
+         </form>
+         <!-- Cart qty -->
+         <div id="cart-qty"></div>
+         <!-- Cart Items -->
+                <ul id="item-list">
     
-  </ul>
-  <!-- Cart total -->
-  <div id="cart-total"></div>
+         </ul>
+         <!-- Cart total -->
+         <div id="cart-total"></div>
+</div>
   <script src="./app.js"></script>  
 </body>
 </html>

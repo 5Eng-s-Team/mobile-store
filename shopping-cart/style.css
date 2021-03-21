@@ -1,0 +1,41 @@
+.contain{
+    margin: auto;
+    width: 800px;  
+  }
+  
+  
+  ul{
+      margin: 0;
+      padding: 0%;
+      list-style: none;
+  }
+  
+  input, button {
+      padding: 0.5em;
+      font-size: 1em;
+      border: 1px solid;
+      border-radius: 0.25em;
+  
+  
+  }
+  
+  button {
+      background-color: rgb(5, 5, 5);
+      color: rgb(255, 255, 255);
+      min-width: 2em;
+  
+  }
+  #item-list > li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  
+  }
+  
+  #cart-total {
+      font-size: 2em;
+      border-top: 1px solid;
+  }
+  
+  

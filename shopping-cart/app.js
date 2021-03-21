@@ -10,6 +10,27 @@ const addForm = document.getElementById('add-form')
 const itemName = document.getElementById('item-name')
 const itemPrice= document.getElementById('item-price')
 
+//---------------------------------------------------
+//Handle clicks on list
+itemList.onclick = function(e){
+    //console.log("Clicked!!")
+    //console.log(e.target)
+    if (e.target && e.target.classList.contains('remove')) {
+        const name = e.target.dataset.name // data-name="????"
+        removeItem(name)
+
+    } else if (e.target && e.target.classList.contains('add-one')) {
+
+    const name = e.target.dataset.name
+    addItem(name) 
+
+    } else if (e.target && e.target.classList.contains('remove-one')){
+        const name = e.target.dataset.name
+        removeItem(name,1)   
+
+    }
+}
+
 // --------------------------------------------------
 //handel add from sumbit
 addForm.onsubmit = function(e) {
@@ -18,7 +39,7 @@ addForm.onsubmit = function(e) {
     const name = itemName.value
     const price = itemPrice.value
     addItem(name,price)
-    showItems()
+    
 }   
 //------------------------------------------------------
 
@@ -28,7 +49,7 @@ function addItem(name,price) {
     for (let i = 0; i < cart.length; i+=1){
     if (cart[i].name === name){
         cart[i].qty +=1
-        
+        showItems()
         //its will not contunuo it will stop here
         return
 
@@ -53,12 +74,19 @@ const qty = getQty()
      
          //{name: 'Apple', price:0.99,qty:3}
         const {name,price,qty} =  cart [i]
-
+        const priceXqty = Math.floor(price*qty)
         
-       itemStr += `<li>${name} 
-       $${price } x ${cart[i].qty} = 
-       ${price * qty}$ </li>` 
-
+       itemStr += `<li>${name}
+       <span> 
+       $${price} x ${cart[i].qty} = ${priceXqty}$ 
+       </span>
+       <span>
+       <button class="remove" data-name="${name}">Remove</button>
+       <button class="add-one" data-name="${name}">+</button>  
+       <button class="remove-one" data-name="${name}">-</button> 
+       <span>
+       </li>` 
+         
     }
     itemList.innerHTML = itemStr
     //console.log(`the total price ${getTotal()} `);
@@ -112,6 +140,7 @@ for (let i= 0 ; i < cart.length; i+= 1) {
         if (cart[i].qty < 1 || qty === 0){
             cart.splice(i,1)
         }
+        showItems()
         
         return
         
@@ -132,26 +161,31 @@ for (let i= 0 ; i < cart.length; i+= 1) {
 
 
 // (name,price) function invoked here will start step by step from here.
+//index 0 fill
+addItem('phone1',0.99); 
 //index 1 fill
-addItem('Apple',0.99); 
+addItem('phone2',1.29);
 //index 2 fill
-addItem('Orange',1.29);
+addItem('phone3',30);
 //index 3 fill
-addItem('good',30);
+addItem('phone4',1.99);
 //index 4 fill
-addItem('frice',1.99);
+addItem('phone5',0.99);
 //index 5 fill
-addItem('Apple',0.99);
+addItem('phone6',0.99);
 //index 6 fill
-addItem('Apple',0.99);
+addItem('phone7',1.29);
 //index 7 fill
-addItem('Orange',1.29);
+addItem('phone8',1.29);
+//index 8 fill
+addItem('phone9',1.29);
+//index 9 fill
+addItem('phone',1.29);
 
 showItems(); 
 
 
-removeItem('Apple',1)
-removeItem('frice')
+
 
 
 
