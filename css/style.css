@@ -1,12 +1,12 @@
 
 body {
-    background-color: rgb(230, 204, 255) !important;
-    font-family: 'Akaya Telivigala'!important ;
+    background-color: rgb(230, 204, 255) ;
+    font-family: 'Akaya Telivigala' ;
   }
 
   nav{
   background-color: rgb(181, 102, 255);
-  position: fixed;
+  position: absolute;
   top: 0;
   text-align: left;
   width: 100%;
@@ -14,7 +14,7 @@ body {
 }
 nav a {
   display: inline-block;
-  font-family: 'Akaya Telivigala' !important ;
+  font-family: 'Akaya Telivigala' ;
   font-size: 25px;
   padding: 15px;
   padding-inline-end:50px;
@@ -30,59 +30,44 @@ nav a:hover {
 .team{
     margin: 100px 0 ;
 }
-
-
-.profile{
-    margin-top: 25px;
-    margin-left: 40px;
-}
-.profile .img-box{
-    opacity: 1;
-    display: block;
-    position: relative;
-}
-.profile h3{
+h3{
     font-size: 22px;
     font-weight: bold;
     margin-top: 15px;
 }
-.profile h6{
+h6{
     font-size: 15px;
     font-weight: bold;
     margin-top: 15px;
     color :rgb(181, 102, 255);
 }
-
-.img-box ul{
-    margin: 0;
-    padding: 20px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
+h5{
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.img-box a
+.caption {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+img a
 {
     color: rgb(181, 102, 255);
 }
 
-.img-box:hover ul{
-    opacity: 1;
-}
-.img-box a:hover li{
+ a:hover li{
     color: #060b11;
     border: 1px solid #060b11;
 }
-.img-box::after,.img-box ul, .img-box ul li {
+ img::after,ul, ul li {
     transition : all 0.5s ease-in-out 0s;
 }
-img {
+ img {
     border-radius: 50%;
-    width:200px
+    width:300px
   }
   img {
     opacity: 1;
@@ -90,4 +75,15 @@ img {
   
   img:hover {
     opacity: .05;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
