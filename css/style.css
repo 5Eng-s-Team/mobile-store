@@ -1,12 +1,13 @@
 
 body {
-    background-color: rgb(230, 204, 255) !important;
-    font-family: 'Akaya Telivigala'!important ;
+    background-color:#fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
   }
 
   nav{
-  background-color: rgb(181, 102, 255);
-  position: fixed;
+  background-color:#fff;
+  position: absolute;
   top: 0;
   text-align: left;
   width: 100%;
@@ -14,7 +15,7 @@ body {
 }
 nav a {
   display: inline-block;
-  font-family: 'Akaya Telivigala' !important ;
+  font-family: : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   font-size: 25px;
   padding: 15px;
   padding-inline-end:50px;
@@ -23,71 +24,102 @@ nav a {
   color: rgb(15, 15, 15);
 }
 nav a:hover {
-  color:rgb(181, 102, 255);
+  color:rgb(22, 25, 185);
   background-color:rgb(230, 204, 255);
 }
 
 .team{
     margin: 100px 0 ;
 }
-
-
-.profile{
-    margin-top: 25px;
-    margin-left: 40px;
-}
-.profile .img-box{
-    opacity: 1;
-    display: block;
-    position: relative;
-}
-.profile h3{
+h3{
     font-size: 22px;
     font-weight: bold;
     margin-top: 15px;
+    
 }
-.profile h6{
+h6{
     font-size: 15px;
     font-weight: bold;
     margin-top: 15px;
-    color :rgb(181, 102, 255);
+    color :rgb(22, 25, 185);
+}
+h5{
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.caption {
+  font-size: 35px;
+  color:rgb(22, 25, 185);
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+a
+{color :rgb(22, 25, 185);
 }
 
-.img-box ul{
-    margin: 0;
-    padding: 20px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-}
-
-.img-box a
-{
-    color: rgb(181, 102, 255);
-}
-
-.img-box:hover ul{
-    opacity: 1;
-}
-.img-box a:hover li{
-    color: #060b11;
-    border: 1px solid #060b11;
-}
-.img-box::after,.img-box ul, .img-box ul li {
-    transition : all 0.5s ease-in-out 0s;
-}
-img {
+ img {
     border-radius: 50%;
-    width:200px
+    width:300px
   }
   img {
     opacity: 1;
   }
   
   img:hover {
-    opacity: .05;
+    opacity: .5;
   }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left:30px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column1 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin-left: 180px;
+    padding-top: 50px;
+  }
+  .row1::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column h3{
+    text-align: justify;
+    margin-left: 70px;
+
+  }
+  .column h6{
+    text-align: center;
+    margin-right:90px ;
+  }
+  .column1 h3{
+    text-align: justify;
+    margin-left: 70px;
+
+  }
+  .column1 h6{
+    text-align: center;
+    margin-right:50px ;
+  }
+p{
+text-align: center;
+margin-right: 100px;
+}
+
+.p1{
+  text-align: center;
+margin-right: 50px;
+}
