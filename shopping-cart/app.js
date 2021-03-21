@@ -90,7 +90,7 @@ const qty = getQty()
     }
     itemList.innerHTML = itemStr
     //console.log(`the total price ${getTotal()} `);
-    cartTotal.innerHTML=`the total price ${getTotal()} `
+    cartTotal.innerHTML=`the total price $${getTotal()} `
     
     
 
@@ -162,27 +162,69 @@ for (let i= 0 ; i < cart.length; i+= 1) {
 
 // (name,price) function invoked here will start step by step from here.
 //index 0 fill
-addItem('phone1',0.99); 
-//index 1 fill
-addItem('phone2',1.29);
-//index 2 fill
-addItem('phone3',30);
-//index 3 fill
-addItem('phone4',1.99);
-//index 4 fill
-addItem('phone5',0.99);
-//index 5 fill
-addItem('phone6',0.99);
-//index 6 fill
-addItem('phone7',1.29);
-//index 7 fill
-addItem('phone8',1.29);
-//index 8 fill
-addItem('phone9',1.29);
-//index 9 fill
-addItem('phone',1.29);
+document.getElementById('phone1').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('samsung-galaxy-s21-ultra-5g-1',1); 
+    showItems(); 
+})
 
-showItems(); 
+document.getElementById('phone2').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('samsung-galaxy-note20-1',2); 
+    showItems(); 
+})
+document.getElementById('phone3').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('samsung-galaxy-m31s-2',3); 
+    showItems(); 
+})
+document.getElementById('phone4').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('samsung-galaxy-a72-4g-10',4); 
+    showItems(); 
+})
+document.getElementById('phone5').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('huawei-p-smart-2020-t',5); 
+    showItems(); 
+})
+document.getElementById('phone6').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('huawei-mate-40-1',6); 
+    showItems(); 
+})
+document.getElementById('phone7').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('huawei-enjoy-20-se-1',7); 
+    showItems(); 
+})
+document.getElementById('phone8').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('apple-iphone-x-new-1',8); 
+    showItems(); 
+})
+document.getElementById('phone9').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('apple-iphone-se-2020-2',9); 
+    showItems(); 
+})
+document.getElementById('phone10').addEventListener('click',function (e){
+    e.preventDefault();
+    addItem('apple-iphone-se-2020-2',10); 
+    showItems(); 
+})
+
+document.getElementById('buy').addEventListener('click',function (e){
+    e.preventDefault();
+    alert(`well done`)
+    showItems(); 
+})
+    
+
+
+
+
+
 
 
 
