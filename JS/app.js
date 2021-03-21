@@ -1,5 +1,5 @@
 'use strict'
-const cart=document.getElementById('');
+// const cart=document.getElementById('');
 //Craete a constructor functuion 
 const Phone = function (name, price,color,storage,camera,network,src) {
     this.name = name;
@@ -147,137 +147,137 @@ function tableComaring(event){
   ///////////////////////////////////////////////////
   vsButton.removeEventListener('click',tableComaring);
 }
+/////////////////////////////////////////
+// const Cart = function (items) {
+//   this.items = items;
 
-const Cart = function (items) {
-  this.items = items;
+// };
 
-};
+// Cart.prototype.addItem = function (product, quantity) {
+//   const addtocart=new CartItem(product,quantity);
+//   this.items.push(addtocart);
 
-Cart.prototype.addItem = function (product, quantity) {
-  const addtocart=new CartItem(product,quantity);
-  this.items.push(addtocart);
+// };
 
-};
+// Cart.prototype.saveToLocalStorage = function () {
+//   localStorage.setItem('cart',JSON.stringify(this.items));
+// };
 
-Cart.prototype.saveToLocalStorage = function () {
-  localStorage.setItem('cart',JSON.stringify(this.items));
-};
+// Cart.prototype.removeItem = function (item) {
+//   this.items.splice(item, i);
+// };
 
-Cart.prototype.removeItem = function (item) {
-  this.items.splice(item, i);
-};
-
-const CartItem = function (product, quantity) {
-  this.product = product;
-  this.quantity = quantity;
-};
-
-
-const cartitem = document.getElementById('cart');
-cartitem.addEventListener('click', removeItemFromCart);
-let cartt;
-
-function loadCart() {
-  const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-  cartt = new Cart(cartItems);
-}
-console.log(cartt)
-
-function renderCart() {
-  loadCart();
-  clearCart();
-  showCart();
-}
-
-function clearCart() {
-  let tbody = document.getElementById('tbody');
-  tbody.innerHTML = '';
-}
+// const CartItem = function (product, quantity) {
+//   this.product = product;
+//   this.quantity = quantity;
+// };
 
 
-function showCart() {
+// const cartitem = document.getElementById('cart');
+// cartitem.addEventListener('click', removeItemFromCart);
+// let cartt;
 
-  
-   let tbody = document.getElementById('tbody');
+// function loadCart() {
+//   const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+//   cartt = new Cart(cartItems);
+// }
+// console.log(cartt)
+
+// function renderCart() {
+//   loadCart();
+//   clearCart();
+//   showCart();
+// }
+
+// function clearCart() {
+//   let tbody = document.getElementById('tbody');
+//   tbody.innerHTML = '';
+// }
+
+
+// function showCart() {
 
   
-  for(let i=0; i<cartt.items.length; i++) {  
-  let tablerow = document.createElement('tr');
-  
-  let tableDataQuantity = document.createElement('td');
-  let tableDataIProduct = document.createElement('td');
-  let tableDataDelete = document.createElement('td');
-
-  tableDataDelete.textContent = 'X';
-  tableDataDelete.setAttribute('X',i);
-  tableDataDelete.addEventListener('click', removeItemFromCart)
-
-  tableDataIProduct.textContent = cartt.items[i].product;
-  tableDataQuantity.textContent = cartt.items[i].quantity;
-
-
-  tablerow.appendChild(tableDataDelete);
-  tablerow.appendChild(tableDataQuantity);
-  tablerow.appendChild(tableDataIProduct);
-
-
-
-
-
-  tbody.appendChild(tablerow);
-}
-}
-
-
-
-function removeItemFromCart(event) {
+//    let tbody = document.getElementById('tbody');
 
   
-  const item = event.target.getAttribute('X');
-  cartt.removeItem(cartt.items[item]);
-  cartt.saveToLocalStorage();
-  renderCart();
-
-
-}
-function addSelectedItemToCart() {
+//   for(let i=0; i<cartt.items.length; i++) {  
+//   let tablerow = document.createElement('tr');
   
-   let name = event.target.items.id;
+//   let tableDataQuantity = document.createElement('td');
+//   let tableDataIProduct = document.createElement('td');
+//   let tableDataDelete = document.createElement('td');
+
+//   tableDataDelete.textContent = 'X';
+//   tableDataDelete.setAttribute('X',i);
+//   tableDataDelete.addEventListener('click', removeItemFromCart)
+
+//   tableDataIProduct.textContent = cartt.items[i].product;
+//   tableDataQuantity.textContent = cartt.items[i].quantity;
+
+
+//   tablerow.appendChild(tableDataDelete);
+//   tablerow.appendChild(tableDataQuantity);
+//   tablerow.appendChild(tableDataIProduct);
+
+
+
+
+
+//   tbody.appendChild(tablerow);
+// }
+// }
+
+
+
+// function removeItemFromCart(event) {
+
+  
+//   const item = event.target.getAttribute('X');
+//   cartt.removeItem(cartt.items[item]);
+//   cartt.saveToLocalStorage();
+//   renderCart();
+
+
+// }
+// function addSelectedItemToCart() {
+  
+//    let name = event.target.items.id;
   
    
-   let quantity = event.target.quantity.id;
+//    let quantity = event.target.quantity.id;
    
  
-   cartt.addItem(name, quantity);
+//    cartt.addItem(name, quantity);
 
-}
-
-
-function updateCounter() {
-  let counts=document.getElementById('itemCount')
-  counts.textContent = '  ' + cartt.items.length;
-}
+// }
 
 
-function updateCartPreview() {
+// function updateCounter() {
+//   let counts=document.getElementById('itemCount')
+//   counts.textContent = '  ' + cartt.items.length;
+// }
 
-  let itemCounter = document.getElementById('cartContents')
-  itemCounter.innerHTML = '';
-  let unorderedList = document.createElement('ul');
-  itemCounter.appendChild(unorderedList);
 
-  for(let i=0; i<cartt.items.length; i++){
-  let itemName = cartt.items[i].product;
-  let itemQuantity = cartt.items[i].quantity;
-  let itemList = document.createElement('li');
+// function updateCartPreview() {
+
+//   let itemCounter = document.getElementById('cartContents')
+//   itemCounter.innerHTML = '';
+//   let unorderedList = document.createElement('ul');
+//   itemCounter.appendChild(unorderedList);
+
+//   for(let i=0; i<cartt.items.length; i++){
+//   let itemName = cartt.items[i].product;
+//   let itemQuantity = cartt.items[i].quantity;
+//   let itemList = document.createElement('li');
  
-  unorderedList.appendChild(itemList);
-  itemList.textContent = 'Item Name:  ' + itemName + ' ---- Quantity:   '  +  itemQuantity;
-}
-}
+//   unorderedList.appendChild(itemList);
+//   itemList.textContent = 'Item Name:  ' + itemName + ' ---- Quantity:   '  +  itemQuantity;
+// }
+// }
 
-const catalogForm = document.getElementById('catalog');
-catalogForm.addEventListener('submit', handleSubmit);
+// const catalogForm = document.getElementById('catalog');
+// catalogForm.addEventListener('submit', handleSubmit);
 // function populateForm() {
 
  
@@ -294,4 +294,5 @@ catalogForm.addEventListener('submit', handleSubmit);
 
 // populateForm();
 
-renderCart();
+// renderCart();
+

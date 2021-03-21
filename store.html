@@ -5,40 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <main>
-        <section class="deck col-1">
-          <div class="card">
-            <header>
-              <h1>Your Cart</h1>
-            </header>
-            <div class="copy">
-              <ol>
-                <li>Click the "X" next to any item to remove it from your cart</li>
-              </ol>
-            </div>
-          </div>
-        </section>
-  
-        <section class="deck col-1">
-          <div id="cart-container" class="card">
-            <table id="cart">
-              <thead>
-                <tr>
-                  
-                  <th>Quantity</th>
-                  <th>Item</th>
-                  <th>Remove</th>
-                </tr>
-              </thead>
-              <tbody id="tbody"></tbody>
-              <tfoot></tfoot>
-            </table>
-          </div>
-        </section>
-      </main>
-  
-    <script src="./JS/app.js"></script>
+    <main id='cartlist'>
+    <img src="./mobiles/apple-iphone-12-pro-r1.jpg" width="100" height="200" >
+    <img src="./mobiles/apple-iphone-se-2020-2.jpg" width="100" height="200">
+    <img src="./mobiles/apple-iphone-x-new-1.jpg" width="100" height="200">
+    <img src="./mobiles/huawei-enjoy-20-se-1.jpg" width="100" height="200">
+    <img src="./mobiles/huawei-mate-40-1.jpg" width="100" height="200">
+    <img src="./mobiles/huawei-p-smart-2020-t.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-a72-4g-10.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-m31s-2.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-note20-1.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-s21-ultra-5g-1.jpg" width="100" height="200">
+   <button type="submit" id="phone1">AddCart</button>
+   <button type="submit" id="phone2">AddCart</button>
+   <button type="submit" id="phone3">AddCart</button>
+   <button type="submit" id="phone4">AddCart</button>
+   <button type="submit" id="phone5">AddCart</button>
+   <button type="submit" id="phone6">AddCart</button>
+   <button type="submit" id="phone7">AddCart</button>
+   <button type="submit" id="phone8">AddCart</button>
+   <button type="submit" id="phone9">AddCart</button>
+   <button type="submit" id="phone10">AddCart</button>
+   <div class="contain">
+    <form id="add-form">
+      
+      
+    </form>
+    <!-- Cart qty -->
+    <div id="cart-qty"></div>
+    <!-- Cart Items -->
+           <ul id="item-list">
+
+    </ul>
+    <!-- Cart total -->
+    <div id="cart-total"></div>
+    <div><button type="submit" id="buy">buy</button></div>
+</div>
+</main>
+ 
+    <script src="./JS/cart.js"></script>
 </body>
 </html>
