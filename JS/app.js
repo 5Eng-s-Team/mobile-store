@@ -26,6 +26,7 @@ const Phone = function (name, price,color,storage,camera,network,src) {
     new Phone('Iphone X','530$','Space Gray','64GB','12MP','4G','src')
     new Phone('Huawei Mate 40E','840$','White','128GB','64MP','4G','src')
     new Phone('Huawei P Smart 2020','250$','Aurora Blue','128GB','13MP','4G','src')
+    
 }
 Phones();
 
