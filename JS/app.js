@@ -1,17 +1,19 @@
 'use strict'
 const cart=document.getElementById('');
-
-const Phone = function (name, price,color,storage,camera,src) {
+//Craete a constructor functuion 
+const Phone = function (name, price,color,storage,camera,network,src) {
     this.name = name;
     this.price = price;
     this.color=color;
     this.storage=storage;
     this.camera=camera;
+    this.network=network
     this.src=src
-    
+    //add the object to an array
     Phone.all.push(this);
   };
   Phone.all = [];
+  //create 10 phone objects
 
   function Phones(){
     new Phone('Huawei Enjoy 20se','220$','Crush Green','128GB','13MP','4G','src')
@@ -26,4 +28,6 @@ const Phone = function (name, price,color,storage,camera,src) {
     new Phone('Huawei P Smart 2020','250$','Aurora Blue','128GB','13MP','4G','src')
 }
 Phones();
+
+
 
