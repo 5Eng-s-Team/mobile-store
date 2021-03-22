@@ -1,33 +1,53 @@
 
 body {
     background-color:#fff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: cursive;
 
   }
-
-  nav{
-  background-color:#fff;
-  position: absolute;
-  top: 0;
-  text-align: left;
+  body>header {
+    background: #062f4f;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding: .5em 5em;
+  }
+  
+  body>header:after {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+  }
+  
+  body>header nav {
+    line-height: 2.cm;
+    
+  }
+  nav a {
+    float: left;
+    display: block;
+    font-family:cursive;
+    font-size: 20px;
+    padding: 15px;
+    text-align: left;
+    /* padding-inline-end: 50px;
+    padding-inline-start: 50px; */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+ .nav1{
+  content: "";
+  position: fixed;
+  top: -10px;
+  left: 0;
   width: 100%;
-  height: 10%;
-}
-nav a {
-  display: inline-block;
-  font-family: : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  font-size: 25px;
-  padding: 15px;
-  padding-inline-end:50px;
-  padding-inline-start: 50px;
-  text-decoration: none;
-  color: rgb(15, 15, 15);
-}
-nav a:hover {
-  color:rgb(22, 25, 185);
-  background-color:rgb(230, 204, 255);
-}
-
+  height: 10px;
+  z-index: 100;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+ }
 .team{
     margin: 100px 0 ;
 }
@@ -41,23 +61,24 @@ h6{
     font-size: 15px;
     font-weight: bold;
     margin-top: 15px;
-    color :rgb(22, 25, 185);
+    color : rgb(0, 0, 139)
 }
 h5{
   font-size: 40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: cursive;
   text-align: center;
+  margin-bottom: 80px;
 }
 .caption {
   font-size: 35px;
-  color:rgb(22, 25, 185);
+  color:rgb(0, 0, 139);
   font-weight: bold;
   position: absolute;
   top: 100px;
   left: 400px;
 }
 a
-{color :rgb(22, 25, 185);
+{color :rgb(15, 15, 15);
 }
 
  img {
@@ -107,7 +128,7 @@ a
   }
   .column1 h3{
     text-align: justify;
-    margin-left: 70px;
+    margin-left: 50px;
 
   }
   .column1 h6{
@@ -123,6 +144,14 @@ margin-right: 100px;
   text-align: center;
 margin-right: 50px;
 }
+
+footer{
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+}
+
 #cartlist img{
   border-radius: 2px;
   width: 180px;
@@ -136,4 +165,5 @@ margin-right: 50px;
   margin-right: 180px;
   margin-bottom: 50px;
 }
+
 
