@@ -7,8 +7,7 @@ const cartQty = document.getElementById('cart-qty')
 const itemList = document.getElementById('item-list')
 const cartTotal = document.getElementById('cart-total')
 const addForm = document.getElementById('add-form')
-const itemName = document.getElementById('item-name')
-const itemPrice= document.getElementById('item-price')
+
 
 //---------------------------------------------------
 //Handle clicks on list
@@ -31,16 +30,7 @@ itemList.onclick = function(e){
     }
 }
 
-// --------------------------------------------------
-//handel add from sumbit
-addForm.onsubmit = function(e) {
-    e.preventDefault()
-    
-    const name = itemName.value
-    const price = itemPrice.value
-    addItem(name,price)
-    
-}   
+ 
 //------------------------------------------------------
 
 //function to add and push to arry out.
