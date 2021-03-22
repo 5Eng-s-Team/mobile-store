@@ -4,47 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/compare.css">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div id="addPhoneCompare" >
+    <main id='cartlist'>
+    <img src="./mobiles/apple-iphone-12-pro-r1.jpg" width="100" height="200" >
+    <img src="./mobiles/apple-iphone-se-2020-2.jpg" width="100" height="200">
+    <img src="./mobiles/apple-iphone-x-new-1.jpg" width="100" height="200">
+    <img src="./mobiles/huawei-enjoy-20-se-1.jpg" width="100" height="200">
+    <img src="./mobiles/huawei-mate-40-1.jpg" width="100" height="200">
+    <img src="./mobiles/huawei-p-smart-2020-t.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-a72-4g-10.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-m31s-2.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-note20-1.jpg" width="100" height="200">
+    <img src="./mobiles/samsung-galaxy-s21-ultra-5g-1.jpg" width="100" height="200">
+   <button type="submit" id="phone1">AddCart</button>
+   <button type="submit" id="phone2">AddCart</button>
+   <button type="submit" id="phone3">AddCart</button>
+   <button type="submit" id="phone4">AddCart</button>
+   <button type="submit" id="phone5">AddCart</button>
+   <button type="submit" id="phone6">AddCart</button>
+   <button type="submit" id="phone7">AddCart</button>
+   <button type="submit" id="phone8">AddCart</button>
+   <button type="submit" id="phone9">AddCart</button>
+   <button type="submit" id="phone10">AddCart</button>
+   <div class="contain">
+    <form id="add-form">
+      
+      
+    </form>
+    <!-- Cart qty -->
+    <div id="cart-qty"></div>
+    <!-- Cart Items -->
+           <ul id="item-list">
 
-        <nav>
-            <input type="text" name="searchPhone" id="searchPhone" placeholder="Search for a phone">
-            <button id="btn" >🔍</button>
-            <div id="divForphoneBox" ></div>
-        </nav>
-
-        <!-- <nav> -->
-            <input type="text" name="searchPhone" id="searchPhone" placeholder="Search for a phone">
-            <button id="btn" >🔍</button>
-            <div id="divForphoneBox" ></div>
-        <!-- </nav> -->
-
-
-    </div>
-    <div id="comparing_section"> 
-        <img id="img01">
-        <button id="vsBtn">VS</button>
-        <img id="img02">
-       
-    </div>
-    <div id="tableSection">
-        <table id="table"> </table>
-    </div>
-
-   <script src="./JS/app.js"></script>
-
-    <section>
-        <canvas id="Chart" width="400" height="400"></canvas>
-
-
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-   <script src="./JS/app.js"></script>
+    </ul>
+    <!-- Cart total -->
+    <div id="cart-total"></div>
+    <div><button type="submit" id="buy">buy</button></div>
+</div>
+</main>
+ 
+    <script src="./JS/cart.js"></script>
 </body>
-
-</body>
-
 </html>
