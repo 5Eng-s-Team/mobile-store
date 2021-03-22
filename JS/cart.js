@@ -28,19 +28,6 @@ itemList.addEventListener('click' ,function(e){
     }
 })
 
-// --------------------------------------------------
-//handel add from sumbit
-// addForm.addEventListener('submit', function(e) {
-//     e.preventDefault()
-    
-//     const name = itemName.value
-//     const price = itemPrice.value
-//     addItem(name,price)
-    
-// } )
-//------------------------------------------------------
-
-//function to add and push to arry out.
 function addItem(name,price) {
     
     for (let i = 0; i < cart.length; i++){
@@ -58,7 +45,7 @@ function addItem(name,price) {
     //key not eqale the value
     const item = { name,price,qty:1 }
     cart.push(item)
-    
+  
 }
 
 //-------------------------------------------------------
@@ -171,56 +158,56 @@ for (let i= 0 ; i < cart.length; i++) {
 
 // (name,price) function invoked here will start step by step from here.
 //index 0 fill
-document.getElementById('phone1').addEventListener('click',function (e){
+document.getElementById('button1').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Iphone 12 pro ',850); 
   
     showItems(); 
-   
+    
 })
 
-document.getElementById('phone2').addEventListener('click',function (e){
+document.getElementById('button2').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Xiaomi Mi',150); 
     
     showItems(); 
 })
-document.getElementById('phone3').addEventListener('click',function (e){
+document.getElementById('button3').addEventListener('click',function (e){
     e.preventDefault();
     addItem('iPhone 11 ',467  ); 
     showItems(); 
 })
-document.getElementById('phone4').addEventListener('click',function (e){
+document.getElementById('button4').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Huawei Nova',179 ); 
     showItems(); 
 })
-document.getElementById('phone5').addEventListener('click',function (e){
+document.getElementById('button5').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Samsung A31',179 ); 
     showItems(); 
 })
-document.getElementById('phone6').addEventListener('click',function (e){
+document.getElementById('button6').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Asus Zenfone 6',450 ); 
     showItems(); 
 })
-document.getElementById('phone7').addEventListener('click',function (e){
+document.getElementById('button7').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Huawei P30 Pro',530 ); 
     showItems(); 
 })
-document.getElementById('phone8').addEventListener('click',function (e){
+document.getElementById('button8').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Galaxy S21',668 ); 
     showItems(); 
 })
-document.getElementById('phone9').addEventListener('click',function (e){
+document.getElementById('button9').addEventListener('click',function (e){
     e.preventDefault();
     addItem('iPhone X',450 ); 
     showItems(); 
 })
-document.getElementById('phone10').addEventListener('click',function (e){
+document.getElementById('button10').addEventListener('click',function (e){
     e.preventDefault();
     addItem('iPhone 8',330 ); 
     showItems(); 
@@ -229,9 +216,27 @@ document.getElementById('phone10').addEventListener('click',function (e){
 document.getElementById('buy').addEventListener('click',function (e){
     e.preventDefault();
     alert('Please, choose the payment method')
+    localStorage.setItem('phone',JSON.stringify(cart))
     showItems(); 
 })
     
+// const table=document.getElementById('table')
+// let catrphone=JSON.parse(localStorage.getItem('Phone'));
+// console.log(catrphone)
+// for(let i=0;i<cart.length;i++){
+   
+//     let tr=document.createElement('tr')
+//     let tdphone=document.createElement('td')
+//     let tdqty=document.createElement('td')
+//     let tdtot=document.createElement('td')
+//     tdphone.textContent=catrphone.name;
+//     tdphone.textContent=catrphone.price;
+//     tdphone.textContent=catrphone.qty;
+//     tr.appendChild(tdphone)
+//     tr.appendChild(tdqty)
+//     tr.appendChild(tdtot)
+//     table.appendChild(tr)
+// }
 
 
 
