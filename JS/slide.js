@@ -13,7 +13,14 @@ function showSlides() {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
+<<<<<<< HEAD:JS/slideShow.js
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3500); // Change image every 3.5 seconds
 }
+=======
+  slides[slideIndex-1].style.display = 'block';
+  dots[slideIndex-1].className += 'active';
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+>>>>>>> test:JS/slide.js

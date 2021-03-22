@@ -1,0 +1,91 @@
+
+
+.team{
+    margin: 100px 0 ;
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+h6{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color :  #062f4f
+}
+h5{
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+  margin-top:150px;
+}
+
+a
+{color :rgb(15, 15, 15);
+}
+
+ img {
+    border-radius: 50%;
+    width:300px
+  }
+  img {
+    opacity: 1;
+  }
+  
+  img:hover {
+    opacity: .5;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left:30px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column1 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin-left: 180px;
+    padding-top: 50px;
+  }
+  .row1::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column h3{
+    text-align: justify;
+    margin-left: 70px;
+
+  }
+  .column h6{
+    text-align: center;
+    margin-right:90px ;
+  }
+  .column1 h3{
+    text-align: justify;
+    margin-left: 50px;
+
+  }
+  .column1 h6{
+    text-align: center;
+    margin-right:50px ;
+  }
+p{
+text-align: center;
+margin-right: 100px;
+}
+
+.p1{
+  text-align: center;
+margin-right: 50px;
+}

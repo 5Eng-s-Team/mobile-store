@@ -629,6 +629,7 @@ body p {
   padding-bottom:1px;
   position: absolute;
   top: 730px;
+<<<<<<< HEAD
   left: 175px;
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
@@ -678,6 +679,13 @@ body p {
 }
 
 
+=======
+  left: 170px;
+  background-color:rgb(0, 0, 139) ;
+  color: white;
+  border-radius: 10px;
+}
+>>>>>>> test
 #phone2{
   font-size: 15px;
   font-weight: bold;
@@ -689,6 +697,7 @@ body p {
   top: 730px;
   left: 393px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -698,6 +707,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone3{
   font-size: 15px;
@@ -710,6 +723,7 @@ body p {
   top: 730px;
   left: 613px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -719,6 +733,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone4{
   font-size: 15px;
@@ -731,6 +749,7 @@ body p {
   top: 925px;
   left: 73px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -740,6 +759,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone5{
   font-size: 15px;
@@ -752,6 +775,7 @@ body p {
   top: 925px;
   left: 288px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -761,6 +785,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone6{
   font-size: 15px;
@@ -773,6 +801,7 @@ body p {
   top: 925px;
   left: 507px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -782,6 +811,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone7{
   font-size: 15px;
@@ -794,6 +827,7 @@ body p {
   top: 925px;
   left: 720px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -803,6 +837,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone8{
   font-size: 15px;
@@ -815,6 +853,7 @@ body p {
   top: 1100px;
   left: 182px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -824,6 +863,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone9{
   font-size: 15px;
@@ -836,6 +879,7 @@ body p {
   top: 1100px;
   left: 397px;
   background-color:rgb(0, 0, 139) ;
+<<<<<<< HEAD
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -845,6 +889,10 @@ body p {
 							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+=======
+  color: white;
+  border-radius: 10px;
+>>>>>>> test
 }
 #phone10{
   font-size: 15px;
