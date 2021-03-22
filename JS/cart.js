@@ -30,14 +30,14 @@ itemList.addEventListener('click' ,function(e){
 
 // --------------------------------------------------
 //handel add from sumbit
-addForm.addEventListener('submit', function(e) {
-    e.preventDefault()
+// addForm.addEventListener('submit', function(e) {
+//     e.preventDefault()
     
-    const name = itemName.value
-    const price = itemPrice.value
-    addItem(name,price)
+//     const name = itemName.value
+//     const price = itemPrice.value
+//     addItem(name,price)
     
-} )
+// } )
 //------------------------------------------------------
 
 //function to add and push to arry out.
@@ -45,14 +45,16 @@ function addItem(name,price) {
     
     for (let i = 0; i < cart.length; i++){
     if (cart[i].name === name){
+    
         cart[i].qty ++
-        
+       
         showItems()
         //its will not contunuo it will stop here
         return
 
     }
     }
+    
     //key not eqale the value
     const item = { name,price,qty:1 }
     cart.push(item)
@@ -61,7 +63,7 @@ function addItem(name,price) {
 
 //-------------------------------------------------------
 //function to show the items in cart arry
-const table=document. getElementById('table')
+
 function  showItems() {
 const qty = getQty()
     
@@ -81,7 +83,7 @@ const qty = getQty()
         
        itemStr += `<li>${name}
        <span> 
-       $${price} x ${cart[i].qty} = ${priceXqty}$ 
+       ${price} JD x ${cart[i].qty} = ${priceXqty} JD
        </span>
        <span>
        <button class="remove" data-name="${name}">Remove</button>
@@ -95,7 +97,7 @@ const qty = getQty()
    
     itemList.innerHTML = itemStr
     
-    cartTotal.innerHTML=`the total price $${getTotal()} `
+    cartTotal.innerHTML=`the total price ${getTotal()} JD`
    
 
 }
@@ -171,55 +173,56 @@ for (let i= 0 ; i < cart.length; i++) {
 //index 0 fill
 document.getElementById('phone1').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Iphone 12 pro ',1180); 
-    
+    addItem('Iphone 12 pro ',850); 
+  
     showItems(); 
    
 })
 
 document.getElementById('phone2').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Iphone SE 2020 ',400); 
+    addItem('Xiaomi Mi',150); 
+    
     showItems(); 
 })
 document.getElementById('phone3').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Iphone X ',530); 
+    addItem('iPhone 11 ',467  ); 
     showItems(); 
 })
 document.getElementById('phone4').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Huawei Enjoy 20se',220); 
+    addItem('Huawei Nova',179 ); 
     showItems(); 
 })
 document.getElementById('phone5').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Huawei Mate 40E',840); 
+    addItem('Samsung A31',179 ); 
     showItems(); 
 })
 document.getElementById('phone6').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Huawei P Smart 2020',250); 
+    addItem('Asus Zenfone 6',450 ); 
     showItems(); 
 })
 document.getElementById('phone7').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Galaxy A72',550); 
+    addItem('Huawei P30 Pro',530 ); 
     showItems(); 
 })
 document.getElementById('phone8').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Galaxy M31s',470); 
+    addItem('Galaxy S21',668 ); 
     showItems(); 
 })
 document.getElementById('phone9').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Galaxy note 20',790); 
+    addItem('iPhone X',450 ); 
     showItems(); 
 })
 document.getElementById('phone10').addEventListener('click',function (e){
     e.preventDefault();
-    addItem('Galaxy A21 Ultra',1150); 
+    addItem('iPhone 8',330 ); 
     showItems(); 
 })
 
