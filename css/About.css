@@ -1,32 +1,4 @@
 
-body {
-    background-color:#fff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-
-  }
-
-  nav{
-  background-color:#fff;
-  position: absolute;
-  top: 0;
-  text-align: left;
-  width: 100%;
-  height: 10%;
-}
-nav a {
-  display: inline-block;
-  font-family: : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  font-size: 25px;
-  padding: 15px;
-  padding-inline-end:50px;
-  padding-inline-start: 50px;
-  text-decoration: none;
-  color: rgb(15, 15, 15);
-}
-nav a:hover {
-  color:rgb(22, 25, 185);
-  background-color:rgb(230, 204, 255);
-}
 
 .team{
     margin: 100px 0 ;
@@ -41,23 +13,17 @@ h6{
     font-size: 15px;
     font-weight: bold;
     margin-top: 15px;
-    color :rgb(22, 25, 185);
+    color :  #062f4f
 }
 h5{
-  font-size: 40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  font-family: cursive;
   text-align: center;
+  margin-top:150px;
 }
-.caption {
-  font-size: 35px;
-  color:rgb(22, 25, 185);
-  font-weight: bold;
-  position: absolute;
-  top: 100px;
-  left: 400px;
-}
+
 a
-{color :rgb(22, 25, 185);
+{color :rgb(15, 15, 15);
 }
 
  img {
@@ -107,7 +73,7 @@ a
   }
   .column1 h3{
     text-align: justify;
-    margin-left: 70px;
+    margin-left: 50px;
 
   }
   .column1 h6{

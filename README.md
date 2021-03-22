@@ -31,6 +31,8 @@
 # Project Documentation
 #### 1.0.0 create a repo
 #### 1.0.1 craete wireframe
-### 1.0.2 create 4 html files
+#### 1.0.2 create 4 html files
+#### 1.0.3 create app.js & cart.js files
+#### 1.0.4 styling home & about Us pages
 
 
