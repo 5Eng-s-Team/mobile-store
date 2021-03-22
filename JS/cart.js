@@ -42,10 +42,11 @@ addForm.addEventListener('submit', function(e) {
 
 //function to add and push to arry out.
 function addItem(name,price) {
-
+    
     for (let i = 0; i < cart.length; i++){
     if (cart[i].name === name){
         cart[i].qty ++
+        
         showItems()
         //its will not contunuo it will stop here
         return
@@ -57,9 +58,10 @@ function addItem(name,price) {
     cart.push(item)
     
 }
+
 //-------------------------------------------------------
 //function to show the items in cart arry
-
+const table=document. getElementById('table')
 function  showItems() {
 const qty = getQty()
     
@@ -71,8 +73,11 @@ const qty = getQty()
      
         
         const {name,price,qty} =  cart [i]
-        console.log(cart[i])
+        
         const priceXqty = price*qty
+     
+        
+    
         
        itemStr += `<li>${name}
        <span> 
@@ -84,17 +89,19 @@ const qty = getQty()
        <button class="remove-one" data-name="${name}">-</button> 
        <span>
        </li>` 
-         
+       
+    
     }
+   
     itemList.innerHTML = itemStr
     
     cartTotal.innerHTML=`the total price $${getTotal()} `
-    
-    
+   
 
 }
 //-------------------------------------------------------
 
+   
 // Get qty
 
 function getQty(){
@@ -165,7 +172,9 @@ for (let i= 0 ; i < cart.length; i++) {
 document.getElementById('phone1').addEventListener('click',function (e){
     e.preventDefault();
     addItem('Iphone 12 pro ',1180); 
+    
     showItems(); 
+   
 })
 
 document.getElementById('phone2').addEventListener('click',function (e){
