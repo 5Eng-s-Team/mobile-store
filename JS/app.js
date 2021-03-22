@@ -17,16 +17,16 @@ const Phone = function (name, price,color,storage,camera,network,src) {
   //create 10 phone objects
 
   function Phones(){
-    new Phone('Huawei Enjoy 20se','220$','Crush Green','128GB','13MP','4G','src')
-    new Phone('Galaxy A72','550$','Awsome Black','128GB','64MP','4G','src')
-    new Phone('Galaxy M31s','470$','Mirage Black','128GB','64MP','4G','src')
-    new Phone('Galaxy note 20','790$','Mystic Blue','128GB','64MP','4G','src')
-    new Phone('Galaxy A21 Ultra','1150$','Phantom Brown','128GB','108MP','4G','src')
-    new Phone('Iphone 12 pro','1180$','Silver Graphite','128GB','12MP','4G','src')
-    new Phone('Iphone SE 2020','400$','Red','64GB','12MP','4G','src')
-    new Phone('Iphone X','530$','Space Gray','64GB','12MP','4G','src')
-    new Phone('Huawei Mate 40E','840$','White','128GB','64MP','4G','src')
-    new Phone('Huawei P Smart 2020','250$','Aurora Blue','128GB','13MP','4G','src')
+    new Phone('iPhone 12 Pro','850 JD','Silver Graphite','128GB','12MP','4G','src')
+    new Phone('Xiaomi Mi A2 Lite','150 JD','Awsome Black','64GB','12MP','4G','src')
+    new Phone('iPhone 11','467 JD','Yellow','64GB','12MP','4G','src')
+    new Phone('Huawei Nova 6 Se','179 JD','Emerald Green','128GB','48MP','4G','src')
+    new Phone('Samsung A31','179 JD',' Prism Crush Blue','128GB','48MP','4G','src')
+    new Phone('Asus Zenfone 6','450 JD','Midnight Black','128GB','48MP','4G','src')
+    new Phone('Huawei P30 Pro','668 JD',' Amber Sunrise','128GB','40MP','4G','src')
+    new Phone('Iphone X','450 JD','Space Gray','128GB','12MP','4G','src')
+    new Phone('iPhone 8','330 JD','White','128GB','12MP','4G','src')
+    new Phone('Galaxy S21','668 JD','Gold','128GB','13MP','4G','src')
     
 }
 Phones();
