@@ -39,7 +39,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: uppercase;
   }
- 
+
 
 #navbar1 div img {
     position: absolute;
@@ -156,4 +156,4 @@ body {
     .footer-email-form{
         margin-top: 2rem;
     }
-}
+} 
