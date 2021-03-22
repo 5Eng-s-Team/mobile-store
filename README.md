@@ -12,4 +12,3 @@
 5. Amarh Abu-Sohoun
 
 ## This project had built to sell mobiles online by creating an online store.
-We are here ..
