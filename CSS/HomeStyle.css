@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* Slide Show */
 
@@ -938,4 +939,946 @@ footer {
 
 #footer{
   left: 0px;
+=======
+
+/* Slide Show */
+
+.container img {
+  width: 700px;
+  height: 400px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+  position: absolute;
+  top: 180px;
+  left: 250px;
+  width: 800px;
+  height: 400px;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 20px;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+body h3 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+body p {
+  color: rgb(255, 255, 255);
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* images flip */
+
+.caption-container {
+  /* background-color: rgb(255, 255, 255); */
+  position: relative;
+  height: 190px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  top: 350px;
+}
+
+#caption {
+  font-size: 35px;
+  color:#062F4F;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 430px;
+  left: -50px;
+}
+
+#caption2 {
+  font-size: 35px;
+  color:#062F4F;
+  font-weight: bolder;
+  position: absolute;
+  top: 440px;
+  left: 200px;
+  font-size: 40px;
+}
+
+#caption3 {
+  font-size: 35px;
+  color:#062F4F;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 490px;
+  left: -65px;
+}
+
+#buy {
+  font-size: 35px;
+  color: black;
+  /* font-weight: bold; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  top: 850px;
+  left: -50px;
+}
+
+#buy2 {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 850px;
+  left: 200px;
+}
+
+/* iphone 12 pro image */
+
+.flip-box1 {
+  background-color: transparent;
+  width: 100px;
+  height: 170px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 750px;
+  left: 70px;
+}
+
+.flip-box-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box1:hover .flip-box-inner1 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front1, .flip-box-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front1 {
+  background-color: #bbb;
+}
+
+.flip-box-back1 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Xiaomi Mi A2 Lite image */
+
+.flip-box2 {
+  background-color: transparent;
+  width: 130px;
+  height: 170px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 750px;
+  left: 270px;
+}
+
+.flip-box-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box2:hover .flip-box-inner2 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front2, .flip-box-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front2 {
+  background-color: #bbb;
+}
+
+.flip-box-back2 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+  width: 100px;
+  right: 10px;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+/* iPhone 11 image */
+
+.flip-box3 {
+  background-color: transparent;
+  width: 190px;
+  height: 175px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 750px;
+  left: 460px;
+}
+
+.flip-box-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box3:hover .flip-box-inner3 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front3, .flip-box-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front3 {
+  background-color: #bbb;
+}
+
+.flip-box-back3 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+  width: 100px;
+  height: 160px;
+  right: 40px;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+/* Huawei Nova 6 Se image */
+
+.flip-box4 {
+  background-color: transparent;
+  width: 170px;
+  height: 180px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 750px;
+  left: 680px;
+}
+
+.flip-box-inner4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box4:hover .flip-box-inner4 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front4, .flip-box-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front4 {
+  background-color: #bbb;
+}
+
+.flip-box-back4 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+  width: 100px;
+  height: 165px;
+  right: 35px;
+  top: 5px;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+/* Samsung A31 image */
+.flip-box5 {
+  background-color: transparent;
+  width: 90px;
+  height: 170px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 550px;
+  left: 180px;
+}
+
+.flip-box-inner5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box5:hover .flip-box-inner5 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front5, .flip-box-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front5 {
+  background-color: #bbb;
+}
+
+.flip-box-back5 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Asus Zenfone 6 image */
+.flip-box6 {
+  background-color: transparent;
+  width: 200px;
+  height: 180px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 540px;
+  left: 560px;
+}
+
+.flip-box-inner6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box6:hover .flip-box-inner6 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front6, .flip-box-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front6 {
+  background-color: #bbb;
+}
+
+.flip-box-back6 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+  width: 100px;
+  right: 50px;
+  top: 4px;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+/* Huawei P30 Pro image */
+.flip-box7 {
+  background-color: transparent;
+  width: 180px;
+  height: 170px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 550px;
+  left: 350px;
+}
+
+.flip-box-inner7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box7:hover .flip-box-inner7 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front7, .flip-box-back7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front7 {
+  background-color: #bbb;
+}
+
+.flip-box-back7 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+  width: 100px;
+  right: 40px;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+/*Galaxy S21 image */
+.flip-box8 {
+  background-color: transparent;
+  width: 150px;
+  height: 170px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 930px;
+  left: 135px;
+}
+
+.flip-box-inner8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box8:hover .flip-box-inner8 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front8, .flip-box-back8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front8 {
+  background-color: #bbb;
+}
+
+.flip-box-back8 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+ width: 90px;
+ height: 160px;
+ right: 45px;
+ top:6px;
+ text-shadow: 2px 2px 4px #000000;
+
+}
+
+/*iPhone X image */
+.flip-box9 {
+  background-color: transparent;
+  width: 140px;
+  height: 170px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 920px;
+  left: 375px;
+}
+
+.flip-box-inner9 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box9:hover .flip-box-inner9 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front9, .flip-box-back9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front9 {
+  background-color: #bbb;
+}
+
+.flip-box-back9 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+ width: 90px;
+ height: 160px;
+ right: 20px;
+ top:10px;
+ text-shadow: 2px 2px 4px #000000;
+
+}
+/*iPhone X image */
+.flip-box10 {
+  background-color: transparent;
+  width: 170px;
+  height: 160px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: absolute;
+  top: 935px;
+  left: 573px;
+}
+
+.flip-box-inner10 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-box10:hover .flip-box-inner10 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front10, .flip-box-back10 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front10 {
+  background-color: #bbb;
+}
+
+.flip-box-back10 {
+  transform: rotateY(180deg);
+  font-family: cursive;
+  font-weight: bold;
+  background-color: rgb(11, 177, 243);
+  border-radius: 15px;
+ width: 90px;
+ height: 160px;
+ right: 40px;
+ /* top:10px; */
+ text-shadow: 2px 2px 4px #000000;
+
+}
+
+#phone1{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 730px;
+  left: 175px;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+              
+}
+#phone1, #phone2, #phone3, #phone4, #phone5, #phone6, #phone7, #phone8, #phone9, #phone10, span {
+	color: white;
+	/* background-image: linear-gradient(0deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	-webkit-background-clip: text; */
+	background-clip: text;
+	filter: drop-shadow(0 1px 1px rgb(0, 0, 139));
+  transform: rotate(0deg);
+  text-shadow: 1px 1px 3px #000000;
+
+}
+#phone1:hover, #phone2:hover, #phone3:hover, #phone4:hover, #phone5:hover, #phone6:hover, #phone7:hover, #phone8:hover, #phone9:hover, #phone10:hover {
+  animation: .8s morph ease infinite;
+}
+#phone1:hover span, #phone2:hover span, #phone3:hover span, #phone4:hover span, #phone5:hover span, #phone6:hover span, #phone7:hover span, #phone8:hover span, #phone9:hover span, #phone10:hover span {
+  animation: .8s rot ease infinite;
+}
+@keyframes morph {
+	0% {
+		border-radius: 100px 30px 100px 30px;
+	} 50% {
+		border-radius: 30px 100px 30px 100px;
+	} 100% {
+		border-radius: 100px 30px 100px 30px;
+	}
+}
+
+@keyframes rot {
+	0% {
+		transform: rotate(-3deg);
+	} 50% {
+		transform: rotate(3deg);
+	} 100% {
+		transform: rotate(-3deg);
+	}
+}
+
+
+#phone2{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 730px;
+  left: 393px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone3{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 730px;
+  left: 613px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone4{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 925px;
+  left: 73px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone5{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 925px;
+  left: 288px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone6{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 925px;
+  left: 507px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone7{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 925px;
+  left: 720px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone8{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 1100px;
+  left: 182px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone9{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 1100px;
+  left: 397px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone10{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 1100px;
+  left: 611px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+
+#form {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-bottom: 80px;
+  font-family: sans-serif;
+  font-size: 22px;
+  position: absolute;
+  top: 950px;
+  left: 350px;
+}
+
+fieldset {
+  text-align: left;
+  display: inline-block;
+  border: 2px solid rgb(144, 50, 231);
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+form legend {
+  background-color: rgb(181, 102, 255);
+  font-family: cursive;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+fieldset div label {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+fieldset button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  margin: 25px;
+  position: absolute;
+  /* left: 150px;
+width: 200px;
+height: 120px; */
+  border: 3px solid rgb(144, 50, 231);
+  font-weight: bold;
+  left: 70px;
+}
+
+form li {
+  list-style-type: none;
+  text-align: left;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form input {
+  padding: 10px;
+}
+
+footer {
+  position: absolute;
+  margin-bottom: 0px;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 102, 110);
+  top: 1500px;
+  /* left: -190px; */
+  /* padding-right: 430px; */
+}
+
+#footer{
+  left: 0px;
+>>>>>>> 127b811c403c969f82044845f6d51dd161019ac5
 }
