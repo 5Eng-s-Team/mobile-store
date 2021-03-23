@@ -8,7 +8,6 @@ body {
     margin:0;
     box-sizing: border-box;
     font-family: cursive;
-
 }
   #navbar1{
     background-color: rgb(255, 140, 0);
@@ -20,39 +19,44 @@ body {
     transition: top 0.3s;
     padding-top: 40px;
     padding-bottom: 40px;
-  
   }
+  /* Start shake the page title */
   #navbar1 h1{
     font-size: 25px;
     position: absolute;
     top:20px;
     left: 180px;
-    font-family: cursive;
+    font-family: verdana;
     color: white;
     border:20px;
     border-color: black;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
-  #navbar1 div img {
+
+
+#navbar1 div img {
     position: absolute;
     width: 100px;
     height: 80px;
     top: 0px;
     left: 80px;
   }
-  
   #navbar2 {
-    background-color:  #062f4f;
+    background-color:  #062F4F;
     position: absolute;
     top: 80px;
-    /* text-align: left; */
     width: 100%;
     display: block;
     transition: top 0.3s;
     padding-bottom: 0px;
-   
-  
   }
-  
   #navbar2 a {
     float: left;
     display: block;
@@ -60,22 +64,19 @@ body {
     font-size: 20px;
     padding: 15px;
     text-align: left;
-    /* padding-inline-end: 50px;
-    padding-inline-start: 50px; */
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding-right: 35px;
   }
-  
   #navbar2 a:hover {
-    color:  #062f4f;
+    color:  #062F4F;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
   }
 
 .footer-container{
-    background-color: #062f4f;
+    background-color: #062F4F;
     padding: 4rem 0 2rem 0;
-
 }
 .footer{
     width: 80%;
@@ -86,7 +87,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;  
     margin: 0 auto;
-
 }
 .footer-heading{
     display: flex;
@@ -95,14 +95,12 @@ body {
 }
 .footer-heading h2 {
     margin-bottom: 2rem;
-
 }
 .footer-heading a{
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
-
 .footer-heading a :hover{
     color :rgb(255, 140, 0);
     transition: 0.3s ease-out;
@@ -119,10 +117,9 @@ body {
     padding-left: 0.5rem;
     font-size: 1rem;
     margin-bottom: 1rem;
-
 }
 #footer-email::placeholder{
-    color: #b1b1b1;
+    color: #B1B1B1;
 }
 #footer-email-btn{
     width: 100px;
@@ -151,8 +148,6 @@ body {
     .footer{
         padding-top: 2rem;
     }
-    
-    
 }
 @media screen and( max-width:720px){
     .footer-3{
@@ -161,5 +156,4 @@ body {
     .footer-email-form{
         margin-top: 2rem;
     }
-}
-
+} 
