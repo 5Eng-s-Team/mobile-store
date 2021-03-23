@@ -34,5 +34,7 @@
 #### 1.0.2 create 4 html files
 #### 1.0.3 create app.js & cart.js files
 #### 1.0.4 styling home & about Us pages
+#### 1.0.5 adding new functions 
+#### 1.0.6 finishing pages styling
 
 
