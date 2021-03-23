@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Store</title>
+    <link rel="stylesheet" href="./CSS/footer and header.css">
     <link rel="stylesheet" href="./CSS/HomeStyle.css">
+    
 </head>
 <body>
   <nav id="navbar1">
@@ -21,8 +23,9 @@
             <a id="specificationLink" href="./Html/compare.html">Compare</a>
             <a id="aboutUsLink" href="./Html/aboutus.html">About us</a>
         </ul>
-    </nav>
+    </nav>    
 <div class="container">
+  <section class="sectionforslideShow">
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
     <img src="/imgStore/ronaldo.jpg" style="width:100%">
@@ -55,13 +58,47 @@
 
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
-
+</section>
   <p id="caption">  Most Popular </p>
   <p id="caption2"> _____________________________</p>
   <p id="caption3">Mobile Phones</p>
 
   <div class="caption-container">
   </div>
+<!-- 
+  <div class="sticky-container">
+    <ul class="sticky">
+      <li  style="background-color:  #062F4F;">
+        <img width="32" height="32" title="Facebook" alt="Facebook" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" />
+        <p>Facebook</p>
+      </li>
+      <li>
+        <img width="32" height="32" title="Whatsapp" alt="Whatsapp" src="https://agiledigest.com/wp-content/uploads/2018/08/whatsapp.png" />
+        <p>Whatsapp</p>
+      </li>
+      <li style="background-color:  #062F4F;">
+        <img width="32" height="32" title="Twitter" alt="Twitter" src="https://i.pinimg.com/originals/28/90/ba/2890bac9ba41e52707f36268231dfe9e.png" />
+        <p>Twitter</p>
+      </li>
+      <li>
+        <img width="32" height="32" title="Instagram" alt="Instagram" src="https://icon-library.com/images/instagram-small-icon/instagram-small-icon-12.jpg" />
+        <p>Instagram</p>
+      </li>
+      <li style="background-color:  #062F4F;">
+        <img width="32" height="32" title="Linkedin" alt="Linkedin" src="https://www.shareicon.net/data/512x512/2017/03/06/880323_media_512x512.png" />
+        <p>Linkedin</p>
+      </li>
+      <li>
+        <img width="32" height="32" title="YouTube" alt="YouTube" src="https://i.dlpng.com/static/png/6848398_preview.png" />
+        <p>YouTube</p>
+      </li>
+    </ul>
+  </div>
+ -->
+
+
+  <section id="productShow">
+<!-- 
   <div class="flip-box1">
     <div class="flip-box-inner1">
       <div class="flip-box-front1">
@@ -75,7 +112,6 @@
     </div>
   </div>
   
-
   <div class="flip-box2">
     <div class="flip-box-inner2">
       <div class="flip-box-front2">
@@ -192,7 +228,9 @@
           <p>128 GB</p>
       </div>
     </div>
-  </div>
+  </div> -->
+</section>
+  <div id="sectionForProduct"></div>
 
   <!-- <p id="buy">Buy your product</p>
   <p id="buy2"> _____________________________</p>
@@ -212,8 +250,8 @@
       </fieldset>
      
 </form> -->
-<div>
-  <button id="button1">
+<div id="buttonSection">
+  <!-- <button id="button1">
     Add cart
   </button>
   <button id="button2">
@@ -242,11 +280,50 @@
   </button>
   <button id="button10">
     Add cart
-  </button>
+  </button> -->
 </div>
 </div>
-<!-- 
-<footer id="footer"><h1>Mobile Store</h1> </footer> -->
+
+<footer>
+      
+  <div class="footer-container">
+    <div class="footer">
+      <div class="footer-heading footer-1"> 
+       <h2>About</h2>
+       <a href="#">Shipping & Returns</a>
+       <a href="#">Customer Service</a>
+       <a href="#">Terms of services </a>
+    </div>
+    <div class="footer-heading footer-2"> 
+        <h2>contact</h2>
+        <a href="#">jobs</a>
+        <a href="#">contact </a>
+        <a href="#">Blog</a>
+      </div>
+          <div class="footer-heading footer-3"> 
+            <h2>Social Media </h2>
+            <a href="#">instgram</a>
+            <a href="#">faceboook</a>
+            <a href="#">twitter</a>
+            <a href="#">youtube</a>
+           
+            </div>
+<div class="footer-email-form">
+<h2> To Know About Deals and Special Offers</h2>
+<input type="email" placeholder ="Enter Your email address" id ="footer-email">
+<input type="submit" value="SignUp" id="footer-email-btn">
+
+</div>
+
+</div>
+    </div>
+    </div>
+   
+</footer>
+
+    <script src="./JS/home.js"></script>
     <script src="./JS/slideShow.js"></script>
+    
+    <!-- <script src="./JS/catalog.js"></script> -->
     </body>
     </html>

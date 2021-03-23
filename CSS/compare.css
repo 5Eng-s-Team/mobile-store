@@ -1,0 +1,203 @@
+header{
+    height: 150px;
+    margin-bottom: 50px;
+}
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 250px;
+    background-color: #062F4F;
+}
+
+
+/* Your compare animation */
+.welcome {
+    margin: 100px;
+}
+
+.welcome h2 {
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #062F4F;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 280px;
+}
+
+.box {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+.box .inner {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.box .inner:first-child {
+    background-color: #062F4F;
+    color: rgb(255, 255, 255);
+    transform-origin: right;
+    transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+    background-color: #062F4F;
+    color: rgb(255, 255, 255);
+    transform-origin: left;
+    transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+    position: absolute;
+    animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+    animation-delay: 2.5s;
+    left: -100%;
+}
+
+@keyframes marquee {
+    from {
+        left: 100%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+
+
+/*---------table----comapring--that contain button on the left------*/
+#addPhoneCompare{
+    width: 20%;
+    height: auto; 
+    padding: 20px;
+    background-color: rgb(196, 193, 193);
+    float: left;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#divForphoneBox button{
+    height: 90px;
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+}
+
+#divForphoneBox button img {
+    float: left;
+    margin: auto;
+    width: 20%;
+} 
+/*=============================================*/
+#comparing_section{
+    width: 70%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+#comparing_section img{
+    width: 40%;
+    height: 500px;
+    /* margin-left:150px; */
+    border: 2px solid gray;
+    background-image: url("../img/background_mobile.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 15px;
+}
+#img01{
+    float: left;
+    margin-left: 30px;
+}
+#img02{
+    float: right;
+    margin-right: -40px;
+}
+
+.cancel_01 ,.cancel_02{
+    font-size:30px;
+    display: inline;
+    border-radius: 60%;
+}
+.cancel_01{
+    transform: translateY(500px);
+    transform: translateX(-50px);
+}
+.cancel_02{
+    transform: translateY(500px);
+    transform: translateX(60px);
+}
+
+.Par_addPhone01,.Par_addPhone02{
+    position:absolute;
+    background-color: rgb(170, 168, 168);
+    color: white;
+    font:50px bold;
+    width: 349px;
+    text-align: center;
+}
+.Par_addPhone01{
+    top:350px;
+    left: 423px;
+}
+.Par_addPhone02{
+    top:350px;
+    right:75px;
+}
+
+#vsBtn {
+    font-size: 40px;
+    display: inline-block;
+    border: 12px ridge rgb(13, 10, 187);
+    border-radius: 60%;
+    color: gray;
+    padding: 40px 30px;
+    box-shadow:10px 10px rgb(55, 50, 122);
+    margin: 200px 0 0 20px;
+    outline:none;
+}
+#vsBtn:active{
+    border:none;
+    outline: none;
+}
+button:active{
+    border:none;
+    outline: none;
+    box-shadow:10px 10px rgb(55, 50, 122);
+    background-color: rgb(63, 75, 185);
+}
+#paragraphBtn{
+    font-size: 40px;
+    width:60px;
+    display:inline-block;
+    border: 10px ridge gray;
+    border-radius: 60%;
+    padding: 20px 80px 20px 20px;
+    color: gray;
+    margin: 200px 0 0 30px;
+}
+
+
+
+#tableSection{
+    margin-top: -550px;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+    margin-left:100px;
+}
+
