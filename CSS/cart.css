@@ -1,49 +1,84 @@
-/* main{
-    width: 80%;
-  
-    margin:200px auto 0;
-} */
-table{
-    text-align: center;
+
+table {
+    /* text-align: center;
     position: relative;
     top: 200px;
-    left:170px;
-   
+    left: 170px; */
+    width:1000px ;
+    height: 20px;
+    border: 3px solid black;
+    background-color: rgb(255, 140, 0);
+    font-size:20px ;
+    font-family:cursive ;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-collapse:2px collapse;
+    position: absolute;
+    top: 400px;
+    left:190px ;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+}
+table tr{
+    font-family:cursive ;
+    font-weight: bold;
+    text-align: center;
+    color: white; 
+}
+tr:hover {
+    background-color:#062f4f;
+}
+table th{
+    font-size:23px ;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
 
 /*left Side Buttons End*/
 
-
 #buyicon1 {
+    position: absolute;
+    top: 980px;
+    left: 250px;
     width: 150px;
     height: 100px;
-    position: relative;
+    /* position: relative;
     top: 400px;
-    left: 300px;
+    left: 300px; */
 }
 
 #buyicon2 {
+    position: absolute;
+    top: 980px;
+    left: 560px;
     width: 150px;
     height: 100px;
-    position: relative;
+    /* position: relative;
     top: 300px;
-    left: 600px;
+    left: 600px; */
 }
 
 #buyicon3 {
+    position: absolute;
+    top: 980px;
+    left: 870px;
     width: 150px;
     height: 90px;
-    position: relative;
+    /* position: relative;
     top: 205px;
-    left: 900px;
+    left: 900px; */
 }
 
 #buyicon4 {
     width: 60%;
     height: 60%;
     position: absolute;
-    top: 1100px;
-    left: 300px;
+    top: 1150px;
+    left: 280px;
 }
 
 .icon1 h2, .icon2 h2, .icon3 h2 {
@@ -64,20 +99,20 @@ table{
 
 .icon1 {
     position: absolute;
-    top: 980px;
-    left: 250px;
+    top: 1100px;
+    left: 220px;
 }
 
 .icon2 {
     position: absolute;
-    top: 980px;
-    left: 560px;
+    top: 1100px;
+    left: 520px;
 }
 
 .icon3 {
     position: absolute;
-    top: 980px;
-    left: 870px;
+    top: 1100px;
+    left: 840px;
 }
 
 .welcome h1 {
@@ -105,7 +140,7 @@ table{
 }
 
 .team {
-    margin: 400px 0;
+    margin-top: 100px 0;
 }
 
 /* Your Cart animation */
@@ -160,3 +195,64 @@ table{
         left: -100%;
     }
 }
+
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: -155px;
+    top: 530px;
+    width: 200px;
+}
+.sticky-container a:hover {
+    color: white;
+    text-decoration-line: none;
+    /* background-color: darkkhaki; */
+}
+
+.sticky li {
+    list-style-type: none;
+    background-color: rgb(255, 140, 0);
+    color: #EFEFEF;
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    filter: rgb(255, 140, 0);
+    -webkit-filter: rgb(255, 140, 0);
+}
+
+.sticky li:hover {
+    margin-right: -115px;
+}
+
+.sticky li img {
+    float: right;
+    margin: 5px 5px;
+    margin-left: 10px;
+}
+
+.sticky li p {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    line-height: 43px;
+    text-decoration-line: none;
+}
+
+footer {
+    position: absolute;
+    margin-bottom: 0px;
+    height: 80px;
+    width: 100%;
+    top: 1500px;
+  }
+  
+  #footer{
+    left: 0px;
+  }

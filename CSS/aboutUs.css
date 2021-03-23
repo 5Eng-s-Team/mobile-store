@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(225, 241, 252);
+  background-color: rgb(255, 255, 255);
 }
 main{
   margin-top: 200px;
@@ -48,11 +48,33 @@ a
   }
   .column {
     float: left;
-    width: 30%;
+    /* width: 35%; */
     padding: 5px;
-    margin-left:30px;
+    margin-left:90px;
   }
-  
+  .row{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+  }
+  .row p{
+    color: rgb(255, 140, 0);
+    position: relative;
+    top: 20px;
+    text-align: center;
+  }
+  .row1{
+    position: absolute;
+    top: 900px;
+    left: 150px;
+  }
+  .row1 p{
+    color: rgb(255, 140, 0);
+    /* position: relative;
+    top: 20px; */
+    text-align: center;
+  }
+
   .row::after {
     content: "";
     clear: both;
@@ -76,10 +98,10 @@ a
     margin-left: 70px;
 
   }
-  .column h6{
+  /* .column h6{
     text-align: center;
     margin-right:90px ;
-  }
+  } */
   .column1 h3{
     text-align: justify;
     margin-left: 50px;
@@ -89,15 +111,7 @@ a
     text-align: center;
     margin-right:50px ;
   }
-p{
-text-align: center;
-margin-right: 100px;
-}
 
-.p1{
-  text-align: center;
-margin-right: 50px;
-}
 
 #cartlist img{
   border-radius: 2px;
@@ -112,5 +126,73 @@ margin-right: 50px;
   margin-right: 180px;
   margin-bottom: 50px;
 }
+.amarahInfo{
+  position: absolute;
+  top: 310px;
+  left: 80px;
+}
+#Amarah{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+ }
+ #paragraphAmarah {
+   position: absolute;
+   left: 30px;
+   top: 65px;
+ }
 
+ .niveenInfo{
+  position: absolute;
+  top: 310px;
+  left: 480px;
+}
+ #Niveen{
+position: absolute;
+top: 30px;
+left: 85px;
+text-align: left;
+ }
+
+ .anwarInfo{
+  position: absolute;
+  top: 310px;
+  left: 885px;
+}
+ #Anwar{
+position: absolute;
+top: 30px;
+left: 85px;
+ }
+ .ahmadInfo{
+  position: absolute;
+  top: 350px;
+  left: 195px;
+}
+ #Ahmad{
+position: absolute;
+top: 30px;
+left: 80px;
+
+ }
+ #paragraphAhmad {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
+ .obadaInfo{
+  position: absolute;
+  top: 350px;
+  left: 620px;
+}
+ #Obada{
+position: absolute;
+top: 30px;
+left: 51px;
+ }
+ #paragraphObada {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
 
