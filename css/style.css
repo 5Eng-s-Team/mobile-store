@@ -62,11 +62,11 @@ nav a:hover {
   background-color:rgb(230, 204, 255);
 }
 
-=======
-  height: 10px;
+
+  /* height: 10px;
   z-index: 100;
   box-shadow: 0 0 10px rgba(0, 0, 0, .8);
- }
+ } */
 
 .team{
     margin: 100px 0 ;
