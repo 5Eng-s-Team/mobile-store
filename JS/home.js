@@ -148,12 +148,14 @@ function product(event){
 
   for(let i=0;i<Phone.all.length;i++){
     if(event.target.id===button[i].id){
+    
       input[i]=document.createElement('input');
       input[i].type='number';
       input[i].id = 'input';
       input[i].placeholder='Quantity';
       
       p.innerHTML=Phone.all[i].name;
+      button[i].removeEventListener('click',product)
 
       addAllProductBtn.addEventListener('click', function(event){
         if(event.target.id===addAllProductBtn.id){
