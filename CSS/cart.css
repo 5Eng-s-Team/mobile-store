@@ -1,16 +1,10 @@
 
 table {
-    /* text-align: center;
-    position: relative;
-    top: 200px;
-    left: 170px; */
     width:1000px ;
     height: 20px;
     border: 3px solid black;
     background-color: rgb(255, 140, 0);
-    font-size:20px ;
     font-family:cursive ;
-    font-weight: bold;
     text-align: center;
     color: rgb(0, 0, 0);
     border-collapse:2px collapse;
@@ -24,19 +18,22 @@ table {
     cursor: pointer;
 }
 table tr{
-    font-family:cursive ;
-    font-weight: bold;
     text-align: center;
     color: white; 
+    font-size: 18px;
 }
-tr:hover {
-    background-color:#062f4f;
+table tr:hover {
+    background-color:#084777;
 }
 table th{
     font-size:23px ;
+    font-weight: bold;
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd;
+    color: #ffffff; 
+    background-color: #062f4f;
 }
+
 
 /*left Side Buttons End*/
 
@@ -46,31 +43,22 @@ table th{
     left: 250px;
     width: 150px;
     height: 100px;
-    /* position: relative;
-    top: 400px;
-    left: 300px; */
 }
 
 #buyicon2 {
     position: absolute;
     top: 980px;
-    left: 560px;
+    left: 600px;
     width: 150px;
     height: 100px;
-    /* position: relative;
-    top: 300px;
-    left: 600px; */
 }
 
 #buyicon3 {
     position: absolute;
     top: 980px;
-    left: 870px;
+    left: 940px;
     width: 150px;
     height: 90px;
-    /* position: relative;
-    top: 205px;
-    left: 900px; */
 }
 
 #buyicon4 {
@@ -106,13 +94,13 @@ table th{
 .icon2 {
     position: absolute;
     top: 1100px;
-    left: 520px;
+    left: 560px;
 }
 
 .icon3 {
     position: absolute;
     top: 1100px;
-    left: 840px;
+    left: 900px;
 }
 
 .welcome h1 {
@@ -142,6 +130,7 @@ table th{
 .team {
     margin-top: 100px 0;
 }
+
 
 /* Your Cart animation */
 

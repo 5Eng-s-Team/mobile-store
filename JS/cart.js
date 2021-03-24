@@ -62,7 +62,8 @@ function showTable(){
     td_01.id=`X${i}`;
 
     td_01.textContent = 'X';
-    td_01.style.color='red';
+    td_01.style.color='wihte';
+    td_01.style.backgroundColor='#062f4f';
 
     // td_02.src='/mobiles/samsung-galaxy-a72-4g-10.jpg';
 
@@ -71,7 +72,9 @@ function showTable(){
     td_04.textContent =parseInt(cartItemArray[i].price) * parseInt(cartItemArray[i].quantity)+'Jd';
     td_05.textContent ='ADD';
     td_05.id=`ADD${i}`;
-    td_05.style.color='#062f4f';
+    td_05.style.color='white';
+    td_05.style.fontWeight='10px';
+    td_05.style.backgroundColor='#062f4f';
 
     table.appendChild(tr);
     tr.appendChild(td_01);
