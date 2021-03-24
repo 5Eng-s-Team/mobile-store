@@ -1,0 +1,195 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+main{
+  margin-top: 200px;
+ }
+
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;    
+}
+#name{
+  color: black;
+}
+h6{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color : #062f4f;
+}
+h5{
+  font-size: 40px;
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.caption {
+  font-size: 35px;
+  color:rgb(0, 0, 139);
+  font-weight: bold;
+  position: absolute;
+  top: 250px;
+  left: 430px;
+}
+a
+{color :rgb(15, 15, 15);
+}
+
+ img {
+    border-radius: 50%;
+    width:300px
+  }
+  img {
+    opacity: 1;
+  }
+  
+  img:hover {
+    opacity: .5;
+  }
+  .column {
+    float: left;
+    padding: 5px;
+    margin-left:90px;
+  }
+  .row{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+  }
+  .row p{
+    color: rgb(255, 140, 0);
+    position: relative;
+    top: 20px;
+    text-align: center;
+  }
+  .row1{
+    position: absolute;
+    top: 900px;
+    left: 150px;
+  }
+  .row1 p{
+    color: rgb(255, 140, 0);
+    text-align: center;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column1 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin-left: 180px;
+    padding-top: 50px;
+  }
+  .row1::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column h3{
+    text-align: justify;
+    margin-left: 70px;
+
+  }
+  
+  .column1 h3{
+    text-align: justify;
+    margin-left: 50px;
+
+  }
+  .column1 h6{
+    text-align: center;
+    margin-right:50px ;
+  }
+
+
+#cartlist img{
+  border-radius: 2px;
+  width: 180px;
+  height: 200px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+#cartlist button{
+  border-radius: 2px;
+  
+  margin-right: 180px;
+  margin-bottom: 50px;
+}
+.amarahInfo{
+  position: absolute;
+  top: 310px;
+  left: 80px;
+}
+#Amarah{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+ }
+ #paragraphAmarah {
+   position: absolute;
+   left: 30px;
+   top: 65px;
+ }
+
+ .niveenInfo{
+  position: absolute;
+  top: 310px;
+  left: 490px;
+}
+ #Niveen{
+position: absolute;
+top: 30px;
+left: 85px;
+text-align: left;
+ }
+
+ .anwarInfo{
+  position: absolute;
+  top: 310px;
+  left: 885px;
+}
+ #Anwar{
+position: absolute;
+top: 30px;
+left: 85px;
+ }
+ .ahmadInfo{
+  position: absolute;
+  top: 350px;
+  left: 195px;
+}
+ #Ahmad{
+position: absolute;
+top: 30px;
+left: 80px;
+
+ }
+ #paragraphAhmad {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
+ .obadaInfo{
+  position: absolute;
+  top: 350px;
+  left: 620px;
+}
+ #Obada{
+position: absolute;
+top: 30px;
+left: 51px;
+ }
+ #paragraphObada {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
+
+

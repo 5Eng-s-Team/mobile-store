@@ -1,0 +1,186 @@
+header{
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+
+/*---------table----comapring--that contain button on the left------*/
+#addPhoneCompare{
+    width: 20%;
+    height: 710px; 
+    padding: 20px;
+    background-color:#062f4f;
+    float:left;
+    border-radius: 10px;
+    position: relative;
+    left: 80px;
+}
+#divForphoneBox button{
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    border-radius: 15px;
+    
+}
+
+#divForphoneBox button img {
+    float: left;
+    margin-left: 10px;
+    width: 15%;
+} 
+/*=============================================*/
+#comparing h1{
+    position:absolute;
+    top: 360px;
+    left: 530px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color:#062f4f;
+}
+
+main{
+    position: relative;
+    top: 210px;
+}
+#comparing_section{
+    width: 70%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+#comparing_section img{
+    width: 25%;
+    height: 420px;
+    border: 2px solid gray;
+    background-image: url("../img/background_mobile.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 15px;
+}
+#img01{
+    position: relative;
+    left: 40px;
+    float: left;
+    margin-left: 30px;
+    top: 50px;
+    width: 20px;
+    height: 20px;
+}
+#img02{
+    top: 50px;
+    position: relative;
+    float: right;
+    left: -200px;
+    margin-right: -40px;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.cancel_01 ,.cancel_02{
+    font-size:30px;
+    display: inline;
+    border-radius: 60%;
+}
+.cancel_01{
+    transform: translateY(500px);
+    transform: translateX(-50px);
+}
+.cancel_02{
+    transform: translateY(500px);
+    transform: translateX(60px);
+}
+
+
+.Par_addPhone01,.Par_addPhone02{
+    position:absolute;
+    background-color: rgb(170, 168, 168);
+    color: white;
+    font:50px bold;
+    width: 349px;
+    text-align: center;
+}
+.Par_addPhone01{
+    top:380px;
+    left: 423px;
+}
+.Par_addPhone02{
+    top:350px;
+    right:75px;
+}
+
+#vsBtn {
+    position: relative;
+    left: 70px;
+    top: -10px;
+    font-size: 30px;
+    display: inline-block;
+    border: 8px ridge #062f4f;
+    border-radius: 50%;
+    color: rgb(255, 140, 0);
+    width:50px;
+    padding: 20px 80px 20px 20px;
+    box-shadow:5px 5px #062f4f;
+    margin: 200px 0 0 20px;
+    outline:none;
+}
+#vsBtn:active{
+  
+    border:none;
+    outline: none;
+}
+button:active{
+    border:none;
+    outline: none;
+    box-shadow:5px 5px#062f4f;
+    background-color: #062f4f;
+}
+
+#paragraphBtn{
+    position: relative;
+    left: 70px;
+    top: -10px;
+    font-size: 30px;
+    width:50px;
+    display:inline-block;
+    border: 10px ridge rgb(255, 140, 0);
+    border-radius: 50%;
+    padding: 20px 80px 20px 20px;
+    color: gray;
+    margin: 200px 0 0 30px;
+}
+
+
+
+#tableSection table{
+    margin-top: -250px;
+    margin-bottom: -70px;
+    text-align: center;
+    font-size: 25px;
+    float: right;
+    position:absolute;
+    top: 760px;
+    left: 400px;
+    width: 750px;
+}
+#tableSection table tr{
+    font-size: 20px;
+}
+
+
+#button0, #button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8,#button9{
+ width: 230px;
+ height: 5px;
+ display:block;
+}
+
+.allSocialBar div{
+    position: absolute;
+    top: 200px;
+}
+
