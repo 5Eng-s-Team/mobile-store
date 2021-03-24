@@ -1,17 +1,17 @@
 /* Slide Show */
-
-.container img {
+.mySlides img {
   width: 700px;
   height: 400px;
 }
+
 
 /* Position the image container (needed to position the left and right arrows) */
 
 .container {
   position: absolute;
   top: 180px;
-  left: 250px;
-  width: 800px;
+  left: 200px;
+  width: 1000px;
   height: 400px;
 }
 
@@ -76,7 +76,7 @@ body p {
 }
 
 #caption {
-  font-size: 35px;
+  font-size: 30px;
   color:#062F4F;
   font-weight: bold;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -91,19 +91,10 @@ body p {
   font-weight: bolder;
   position: absolute;
   top: 440px;
-  left: 200px;
+  left: 170px;
   font-size: 40px;
 }
 
-#caption3 {
-  font-size: 35px;
-  color:#062F4F;
-  font-weight: bold;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: absolute;
-  top: 490px;
-  left: -65px;
-}
 
 #buy {
   font-size: 35px;
@@ -468,7 +459,7 @@ body p {
 
 }
 
-/*Galaxy S21 image */
+/*iPhone X image */
 .flip-box8 {
   background-color: transparent;
   width: 150px;
@@ -476,8 +467,8 @@ body p {
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px;
   position: absolute;
-  top: 930px;
-  left: 135px;
+  top: 925px;
+  left: 158px;
 }
 
 .flip-box-inner8 {
@@ -513,22 +504,22 @@ body p {
   border-radius: 15px;
  width: 90px;
  height: 160px;
- right: 45px;
+ right: 30px;
  top:6px;
  text-shadow: 2px 2px 4px #000000;
 
 }
 
-/*iPhone X image */
+/*iPhone 8 image */
 .flip-box9 {
   background-color: transparent;
   width: 140px;
-  height: 170px;
+  height: 160px;
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px;
   position: absolute;
-  top: 920px;
-  left: 375px;
+  top: 930px;
+  left: 360px;
 }
 
 .flip-box-inner9 {
@@ -564,12 +555,12 @@ body p {
   border-radius: 15px;
  width: 90px;
  height: 160px;
- right: 20px;
- top:10px;
+ right: 38px;
+ top:5px;
  text-shadow: 2px 2px 4px #000000;
 
 }
-/*iPhone X image */
+/*Galaxy S21 image */
 .flip-box10 {
   background-color: transparent;
   width: 170px;
@@ -577,8 +568,8 @@ body p {
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px;
   position: absolute;
-  top: 935px;
-  left: 573px;
+  top: 928px;
+  left: 565px;
 }
 
 .flip-box-inner10 {
@@ -614,8 +605,8 @@ body p {
   border-radius: 15px;
  width: 90px;
  height: 160px;
- right: 40px;
- /* top:10px; */
+ right: 50px;
+ top:7px;
  text-shadow: 2px 2px 4px #000000;
 
 }
@@ -628,8 +619,10 @@ body p {
   padding-top: 1px;
   padding-bottom:1px;
   position: absolute;
-  top: 730px;
-  left: 175px;
+  top: 925px;
+  left: 73px;
+  /* top: 730px;
+  left: 175px; */
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
   border-radius: 3.75rem;
@@ -686,8 +679,10 @@ body p {
   padding-top: 1px;
   padding-bottom:1px;
   position: absolute;
-  top: 730px;
-  left: 393px;
+  top: 925px;
+  left: 288px;
+  /* top: 730px;
+  left: 393px; */
   background-color:rgb(0, 0, 139) ;
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
@@ -700,69 +695,6 @@ body p {
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
 }
 #phone3{
-  font-size: 15px;
-  font-weight: bold;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 1px;
-  padding-bottom:1px;
-  position: absolute;
-  top: 730px;
-  left: 613px;
-  background-color:rgb(0, 0, 139) ;
-  cursor: pointer;
-  border: 1px solid rgb(11, 177, 243);
-  border-radius: 3.75rem;
-  line-height: 2.5rem;
-  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
-	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
-							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
-							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
-							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
-}
-#phone4{
-  font-size: 15px;
-  font-weight: bold;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 1px;
-  padding-bottom:1px;
-  position: absolute;
-  top: 925px;
-  left: 73px;
-  background-color:rgb(0, 0, 139) ;
-  cursor: pointer;
-  border: 1px solid rgb(11, 177, 243);
-  border-radius: 3.75rem;
-  line-height: 2.5rem;
-  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
-	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
-							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
-							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
-							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
-}
-#phone5{
-  font-size: 15px;
-  font-weight: bold;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 1px;
-  padding-bottom:1px;
-  position: absolute;
-  top: 925px;
-  left: 288px;
-  background-color:rgb(0, 0, 139) ;
-  cursor: pointer;
-  border: 1px solid rgb(11, 177, 243);
-  border-radius: 3.75rem;
-  line-height: 2.5rem;
-  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
-	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
-							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
-							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
-							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
-}
-#phone6{
   font-size: 15px;
   font-weight: bold;
   padding-left: 15px;
@@ -783,6 +715,73 @@ body p {
 							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
 							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
 }
+#phone4{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+   top: 925px;
+  left: 720px;
+  /* top: 925px;
+  left: 73px; */
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone5{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+   top: 730px;
+  left: 175px;
+  /* top: 925px;
+  left: 288px; */
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
+#phone6{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position: absolute;
+  top: 730px;
+  left: 613px;
+  background-color:rgb(0, 0, 139) ;
+  cursor: pointer;
+  border: 1px solid rgb(11, 177, 243);
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  background-image: linear-gradient(-180deg, rgb(0, 0, 139) 0%, rgb(0, 0, 139) 100%);
+	box-shadow: 0 0.50rem 0.50rem 0 rgb(255, 255, 255),
+							0 -0.25rem 1.5rem rgb(0, 0, 139) inset,
+							0 0.75rem 0.5rem rgba(143, 143, 143, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgb(0, 0, 139) inset;
+}
 #phone7{
   font-size: 15px;
   font-weight: bold;
@@ -791,8 +790,8 @@ body p {
   padding-top: 1px;
   padding-bottom:1px;
   position: absolute;
-  top: 925px;
-  left: 720px;
+  top: 730px;
+  left: 393px;
   background-color:rgb(0, 0, 139) ;
   cursor: pointer;
   border: 1px solid rgb(11, 177, 243);
@@ -930,17 +929,50 @@ form input {
 #sectionForProduct{
   width: 30%;
   transform: translateX(900px);
+  background-color:  #062f4f;
+  position: absolute;
+  top:550;
+  left: -50px;
 }
 #sectionForProduct div{
   margin-bottom: 10px;
-  height: 60px;
+  height: 40px;
   padding: 15px 0 0 15px;
 }
 #sectionForProduct input{
   width: 70px;
+  font-size: 15px;
+  font-weight: bold;
+
 }
 #sectionForProduct p{
   display: inline-block;
   margin-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+.paymentbutoon{
+  width:120px;
+  height:40px;
+  border:1.5px solid ;
+  margin :center;
+  position: absolute;
+  margin-top: 15px;
+  font-family: "Sofia", sans-serif;  
+  left: 95px;
+  font-size: 20px;
+  background-color: rgb(255, 140, 0);
+  font-weight: bold;
 }
 
+footer {
+  position: absolute;
+  margin-bottom: 0px;
+  height: 80px;
+  width: 100%;
+  top: 1500px;
+}
+
+#footer{
+  left: 0px;
+}

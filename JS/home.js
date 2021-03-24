@@ -72,13 +72,29 @@ function creatProductShow(){
     phoneImgSmall[i].src=Phone.all[i-1].src;
     phoneImgSmall[i].style.width='100%';
     phoneImgSmall[i].style.height='170px';
+    if(i===6 || i===3 || i===4) {
+      phoneImgSmall[i].style.width='100%';
+    phoneImgSmall[i].style.height='180px';
+    } 
+    if(i===9) {
+      phoneImgSmall[i].style.width='175px';
+    phoneImgSmall[i].style.height='165px';
+    } 
+    if(i===8) {
+      phoneImgSmall[i].style.width='150px';
+    phoneImgSmall[i].style.height='185px';
+    }
+    if(i===10) {
+      phoneImgSmall[i].style.width='190px';
+    phoneImgSmall[i].style.height='175px';
+    }
     divforSecitions3.appendChild(phoneImgSmall[i]);
     divforSecitions2.appendChild(divforSecitions3);
 
     let divforSecitions4=document.createElement('div');
     divforSecitions4.className=`flip-box-back${i}`;
     let h3=document.createElement('h3');
-    h3.innerText=Phone.all[i-1].name;
+    h3.innerHTML=`<br> ${Phone.all[i-1].name}`;
     let pRgh1=document.createElement('p');
     pRgh1.textContent=Phone.all[i-1].price;
     let pRgh2=document.createElement('p');
@@ -115,8 +131,10 @@ for(let i=0;i<Phone.all.length;i++){///////for making each button active
 
 let addAllProductBtn=document.createElement('button');
 //let refrence=document.createElement('a');
-addAllProductBtn.style.width='100px';
-addAllProductBtn.style.height='50px';
+addAllProductBtn.className='paymentbutoon';
+// addAllProductBtn.style.width='60px';
+// addAllProductBtn.style.height='40px';
+// addAllProductBtn.style.border='black 5px';
 addAllProductBtn.textContent='Payment';
 
 function product(event){
@@ -124,7 +142,7 @@ function product(event){
   let div=document.createElement('div');
   section.appendChild(div);
   section.appendChild(addAllProductBtn);
-  div.style.backgroundColor='rgb(190, 187, 194)';
+  // div.style.backgroundColor='rgb(190, 187, 194)';
   let p=document.createElement('p');
   let input=[]; ///for input text
 
@@ -136,7 +154,6 @@ function product(event){
       input[i].placeholder='Quantity';
       
       p.innerHTML=Phone.all[i].name;
-      p.style.color='black';
 
       addAllProductBtn.addEventListener('click', function(event){
         if(event.target.id===addAllProductBtn.id){

@@ -119,12 +119,12 @@ function tableComaring(event){
   /////////////////create table head
   table.innerText='';
   table.setAttribute('border','5','ridge');
-  table.style.color='gray';
-  table.style.width='950px';
+  // table.style.color='gray';
+  // table.style.width='250px';
 
   let tr=document.createElement('tr');
-  tr.style.background='gray';
-  tr.style.color='white';
+  tr.style.background='#062f4f';
+  // tr.style.color='white';
 
   let th0=document.createElement('th');
   th0.textContent='Specification/phone';
@@ -146,8 +146,8 @@ function tableComaring(event){
     let td02=document.createElement('td');
     td02.textContent=Object.values(compare2img[1])[i];
 
-    td.style.backgroundColor='gray';
-    td.style.color='white';
+    td.style.backgroundColor='#062f4f';
+    // td.style.color='white';
 
     tr1.appendChild(td);
     tr1.appendChild(td01);
