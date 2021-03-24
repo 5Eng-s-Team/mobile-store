@@ -159,10 +159,10 @@ function tableComaring(event){
   ///////////////////////////////////////////////////
   vsButton.removeEventListener('click',tableComaring);
 }
-//////btn for cacel image from it's own place
+//   table.remove();
+////////btn for cacel image from it's own place
 // function cancelBtn(event){
 //   //firstImgSection.style.display='none';
 //   firstImgSection.title='';
-//   table.remove();
-// }
+//  }
 

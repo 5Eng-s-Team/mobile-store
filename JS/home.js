@@ -8,7 +8,7 @@ const CartItem =function(product ,quantity ,price){
   if(!CartItem.array.includes(this.product))
     CartItem.array.push(this);
 
-// console.log('ddd',CartItem.array);
+
 };
 CartItem.array=[];
 
@@ -54,7 +54,7 @@ function creatProductShow(){
   let productShowimg=document.getElementById('productShow');
   //let flipboxClass=[]; ///class for one secition    *******make it not array
   let phoneImgSmall=[];
-  console.log(Phone.all.length);
+  
 
   for(let i=1;i<=Phone.all.length;i++){
 
@@ -134,7 +134,7 @@ function product(event){
       input[i].type='number';
       input[i].id = 'input';
       input[i].placeholder='Quantity';
-      console.log(button[i].id);
+      
       p.innerHTML=Phone.all[i].name;
       p.style.color='black';
 
@@ -145,7 +145,7 @@ function product(event){
 
           //addAllProductBtn.form='https://www.w3docs.com/';
           new CartItem(Phone.all[i].name,input[i].value,Phone.all[i].price);
-          console.log(CartItem.array,'jjj');
+          
           localStProduct();
         }
       });

@@ -6,12 +6,12 @@ tableCart.append(table);
 let cartItemArray=JSON.parse(localStorage.getItem('phoneArray')) ;///array for cart and have 3 variable
 let allProduct=JSON.parse(localStorage.getItem('Phones'));//////for all product
 
-console.log(cartItemArray);
+
 table.addEventListener('click',cancelHandler);
 
 function cancelHandler(event){
   if(event.target.id==='X'){
-    //console.log('fff');
+   
     cartItemArray.splice(event.target.i,1); ///delete one item by index event.target.i
     localStorage.setItem('phoneArray',JSON.stringify(cartItemArray));
     if(cartItemArray.length===0) table.style.display='none';
