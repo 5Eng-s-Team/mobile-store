@@ -36,16 +36,16 @@ header{
     position:absolute;
     top: 360px;
     left: 530px;
-    font-family: "Sofia", sans-serif;
+    font-family: "Audiowide", sans-serif;
     font-size: 50px;
     letter-spacing: 10px;
     font-weight: bold;
-    color: rgba(185, 185, 185, 0.863);
+    color:#062f4f;
 }
-#comparing h1:hover{
+/* #comparing h1:hover{
     color: #062f4f;
     cursor: pointer;
-}
+} */
 main{
     position: relative;
     top: 210px;

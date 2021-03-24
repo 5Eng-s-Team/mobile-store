@@ -1,4 +1,10 @@
 
+video{
+    position: relative;
+    top: 220px;
+    left: 19%;
+
+}
 table {
     width:1000px ;
     height: 20px;
@@ -9,7 +15,7 @@ table {
     color: rgb(0, 0, 0);
     border-collapse:2px collapse;
     position: absolute;
-    top: 400px;
+    top: 600px;
     left:190px ;
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd;
@@ -169,6 +175,7 @@ table th{
 .box .inner span {
     position: absolute;
     animation: marquee 5s linear infinite;
+    font-family: "Audiowide", sans-serif;;
 }
 
 .box .inner:first-child span {
