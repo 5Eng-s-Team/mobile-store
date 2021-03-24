@@ -36,5 +36,6 @@
 #### 1.0.4 styling home & about Us pages
 #### 1.0.5 adding new functions 
 #### 1.0.6 finishing pages styling
-
+#### 1.0.7 finishing JS codes
+#### 1.0.8 deploying the website 
 
