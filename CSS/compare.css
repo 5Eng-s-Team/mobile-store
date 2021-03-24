@@ -12,7 +12,6 @@ header{
     background-color:#062f4f;
     float:left;
     border-radius: 10px;
-    /* margin-left: 90px; */
     position: relative;
     left: 80px;
 }
@@ -42,10 +41,7 @@ header{
     font-weight: bold;
     color:#062f4f;
 }
-/* #comparing h1:hover{
-    color: #062f4f;
-    cursor: pointer;
-} */
+
 main{
     position: relative;
     top: 210px;
@@ -58,7 +54,7 @@ main{
 }
 #comparing_section img{
     width: 25%;
-    height: 400px;
+    height: 420px;
     border: 2px solid gray;
     background-image: url("../img/background_mobile.png");
     background-repeat: no-repeat;
@@ -70,14 +66,19 @@ main{
     left: 40px;
     float: left;
     margin-left: 30px;
-    top: 80px;
+    top: 50px;
+    width: 20px;
+    height: 20px;
 }
 #img02{
-    top: 80px;
+    top: 50px;
     position: relative;
     float: right;
     left: -200px;
     margin-right: -40px;
+    width: 20px;
+    height: 20px;
+
 }
 
 
@@ -163,7 +164,7 @@ button:active{
     font-size: 25px;
     float: right;
     position:absolute;
-    top: 780px;
+    top: 760px;
     left: 400px;
     width: 750px;
 }
@@ -183,7 +184,3 @@ button:active{
     top: 200px;
 }
 
-/* .buttonVs button p{
-    position: absolute;
-    left: -50px;
-} */

@@ -60,7 +60,6 @@ body {
     background-color:  #062f4f;
     position: absolute;
     top: 80px;
-    /* text-align: left; */
     width: 100%;
     display: block;
     transition: top 0.3s;
