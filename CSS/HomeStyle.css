@@ -47,7 +47,7 @@
 
 body h3 {
   /* color: rgb(255, 255, 255); */
-  color:#000000;
+  color:#ffffff;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -157,7 +157,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -204,7 +204,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
   width: 100px;
   right: 10px;
@@ -254,7 +254,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
   width: 100px;
   height: 160px;
@@ -305,7 +305,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
   width: 100px;
   height: 165px;
@@ -356,7 +356,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -402,7 +402,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
   width: 100px;
   right: 50px;
@@ -451,7 +451,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
   width: 100px;
   right: 40px;
@@ -500,7 +500,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
  width: 90px;
  height: 160px;
@@ -551,7 +551,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
  width: 90px;
  height: 160px;
@@ -601,7 +601,7 @@ body p {
   transform: rotateY(180deg);
   font-family: cursive;
   font-weight: bold;
-  background-color: rgb(11, 177, 243);
+  background-color: #062F4F;
   border-radius: 15px;
  width: 90px;
  height: 160px;

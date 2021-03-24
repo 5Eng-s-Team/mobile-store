@@ -15,7 +15,7 @@ h6{
     font-size: 15px;
     font-weight: bold;
     margin-top: 15px;
-    color : rgb(0, 0, 139)
+    color : #062f4f;
 }
 h5{
   font-size: 40px;
@@ -98,10 +98,7 @@ a
     margin-left: 70px;
 
   }
-  /* .column h6{
-    text-align: center;
-    margin-right:90px ;
-  } */
+  
   .column1 h3{
     text-align: justify;
     margin-left: 50px;
@@ -145,7 +142,7 @@ a
  .niveenInfo{
   position: absolute;
   top: 310px;
-  left: 480px;
+  left: 490px;
 }
  #Niveen{
 position: absolute;
