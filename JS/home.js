@@ -32,7 +32,7 @@ const Phone = function (name, price, color, storage, Memory, camera, src) {
   this.storage = storage;
   this.Memory = Memory;
   this.camera = camera;
-  this.src = `/newPhonesDataImg/${src}.jpg`;
+  this.src = `./newPhonesDataImg/${src}.jpg`;
   Phone.all.push(this);
 };
 Phone.all = [];/// array for all Product specification
